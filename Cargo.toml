@@ -1,0 +1,8 @@
+[package]
+name = "gt8_gruenschleife"
+version = "0.1.0"
+authors = ["zusitools <<zusitools@noreply.users.github.com>>"]
+
+[dependencies.zusi_tcp]
+git = "https://github.com/zusitools/rust_zusi_tcp"
+branch = "master"

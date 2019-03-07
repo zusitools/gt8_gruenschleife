@@ -1,0 +1,414 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+  <Info DateiTyp="Fahrzeug" Version="A.1" MinVersion="A.1">
+    <AutorEintrag AutorID="36" AutorName="Johannes Jung"/>
+    <AutorEintrag AutorID="33" AutorName="Alwin Meschede" AutorEmail="ameschede@gmx.de"/>
+  </Info>
+  <Fahrzeug MaxIDHaupt="2">
+    <FahrzeugVariante BR="450" Beschreibung="GT8-100D/2S-M, A-Teil, Wg. 864" Farbgebung="gelb/rot (AVG-Farben bis 2010)" EinsatzAb="1997-01-01" IDHaupt="1" IDNeben="1">
+      <DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Altlack\GT8-100D_A.lod.ls3"/>
+      <DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\GT8-100D_2S-M_Zusatzprogramm.ftd"/>
+    </FahrzeugVariante>
+    <FahrzeugVariante BR="450" Beschreibung="GT8-100D/2S-M, A-Teil, Wg. 848" Farbgebung="rot/weiß (RegioBistro)" EinsatzAb="1997-01-01" IDHaupt="1" IDNeben="2">
+      <DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\RegioBistro\GT8-100D_A.lod.ls3"/>
+      <DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\GT8-100D_2S-M_Zusatzprogramm.ftd"/>
+    </FahrzeugVariante>
+    <FahrzeugVariante BR="450" Beschreibung="GT8-100D/2S-M, A-Teil, Wg. 856" Farbgebung="gelb/rot (AVG-Farben ab 2010)" EinsatzAb="2010-01-01" IDHaupt="1" IDNeben="3">
+      <DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Neulack2010\GT8-100D_A.lod.ls3"/>
+      <DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\GT8-100D_2S-M_Zusatzprogramm.ftd"/>
+    </FahrzeugVariante>
+    <FahrzeugVariante BR="450" Beschreibung="GT8-100D/2S-M, B-Teil, Wg. 864" Farbgebung="gelb/rot (AVG-Farben bis 2010)" EinsatzAb="1997-01-01" IDHaupt="2" IDNeben="1">
+      <DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Altlack\GT8-100D_B.lod.ls3"/>
+      <DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\GT8-100D_2S-M_Zusatzprogramm.ftd"/>
+    </FahrzeugVariante>
+    <FahrzeugVariante BR="450" Beschreibung="GT8-100D/2S-M, B-Teil, Wg. 848" Farbgebung="rot/weiß (RegioBistro)" EinsatzAb="1997-01-01" IDHaupt="2" IDNeben="2">
+      <DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\RegioBistro\GT8-100D_B.lod.ls3"/>
+      <DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\GT8-100D_2S-M_Zusatzprogramm.ftd"/>
+    </FahrzeugVariante>
+    <FahrzeugVariante BR="450" Beschreibung="GT8-100D/2S-M, B-Teil, Wg. 856" Farbgebung="gelb/rot (AVG-Farben ab 2010)" EinsatzAb="2010-01-01" IDHaupt="2" IDNeben="3">
+      <DateiAussenansicht Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Neulack2010\GT8-100D_B.lod.ls3"/>
+      <DateiFuehrerstand Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\GT8-100D_2S-M_Zusatzprogramm.ftd"/>
+    </FahrzeugVariante>
+    <FahrzeugGrunddaten Masse="28450" Achsstandsumme="3.8" RotationsZuschlag="28" cwA="1.825" Rollwiderstand="558.189" Laenge="13.92" spMax="27.7778" HBLVorhanden="1" FesselAnfg="2.86" StromabnHoehe="3.8374"/>
+    <MgBremse BremsGewicht="18000" spUmschalt="13.8889">
+      <BremsenKennungV>
+        <Pkt PktY="15"/>
+        <Pkt PktX="3.8689" PktY="13.606"/>
+        <Pkt PktX="6.8864" PktY="12.519"/>
+        <Pkt PktX="6.9639" PktY="12.492"/>
+        <Pkt PktX="13.8503" PktY="10.313"/>
+        <Pkt PktX="14.0822" PktY="10.256"/>
+        <Pkt PktX="20.8139" PktY="8.704"/>
+        <Pkt PktX="20.8914" PktY="8.689"/>
+        <Pkt PktX="27.7778" PktY="7.5"/>
+        <Stufe StufenWert="1"/>
+      </BremsenKennungV>
+    </MgBremse>
+    <Bremse_KE_L2d VolumenR="150" VolumenA="10" VolumenZylinder="10" FBremsuebersetzung="8937.5303" HBLAnschluss="1">
+      <BremsenKennungV>
+        <Pkt PktY="1.1"/>
+        <Pkt PktX="1.625" PktY="1.071"/>
+        <Pkt PktX="2.7081" PktY="1.051"/>
+        <Pkt PktX="2.7856" PktY="1.05"/>
+        <Pkt PktX="5.4936" PktY="1.011"/>
+        <Pkt PktX="5.5711" PktY="1.01"/>
+        <Pkt PktX="10.9872" PktY="1"/>
+        <Pkt PktX="11.1419" PktY="1"/>
+        <Pkt PktX="27.7778" PktY="1"/>
+        <Stufe StufenWert="1"/>
+      </BremsenKennungV>
+      <BremseP BremsGewicht="50000"/>
+      <BremseR BremsGewicht="50000"/>
+    </Bremse_KE_L2d>
+    <Luftpresser LeistungPresser="300" VolumenHB="290"/>
+    <BremseLuftDirekt Haltebremse="1" HaltebremseDruck="1.5" VolumenZylinder="10" FBremsuebersetzung="8937.5303">
+      <BremsenKennungV>
+        <Pkt PktY="1.1"/>
+        <Pkt PktX="1.625" PktY="1.071"/>
+        <Pkt PktX="2.7081" PktY="1.051"/>
+        <Pkt PktX="2.7856" PktY="1.05"/>
+        <Pkt PktX="5.4936" PktY="1.011"/>
+        <Pkt PktX="5.5711" PktY="1.01"/>
+        <Pkt PktX="10.9872" PktY="1"/>
+        <Pkt PktX="11.1419" PktY="1"/>
+        <Pkt PktX="27.7778" PktY="1"/>
+        <Stufe StufenWert="1"/>
+      </BremsenKennungV>
+    </BremseLuftDirekt>
+    <Bremscomputer BremskraftMax="42000" SchaltgeschwAb="0.125" SchaltgeschwAuf="0.125">
+      <BremscomputerEintrag/>
+      <BremscomputerEintrag BremscomputerNr="2"/>
+      <BremscomputerEintrag/>
+      <BremscomputerEintrag/>
+      <BremscomputerEintrag BremscomputerNr="1"/>
+    </Bremscomputer>
+    <AntriebsmodellElektrischDrehstrom Volt="2" etaTrafo="0.98" MaxOberstrom="450" GrenzwertUeberwacht="1" Leistung="217034.2188" Antriebsachsen="4" Reibmasse="28450" GueteKraftverteilung="0.9" GrenzdruckHL="3">
+      <Kennfeld>
+        <Pkt PktY="44999.9961"/>
+        <Pkt PktX="9.9239" PktY="25582.998"/>
+        <Pkt PktX="10.5731" PktY="24023"/>
+        <Pkt PktX="11.5469" PktY="21996.998"/>
+        <Pkt PktX="13.0311" PktY="19492"/>
+        <Pkt PktX="13.7731" PktY="18441.998"/>
+        <Pkt PktX="15.1178" PktY="16801"/>
+        <Pkt PktX="16.1381" PktY="15739"/>
+        <Pkt PktX="17.4828" PktY="14529"/>
+        <Pkt PktX="19.1986" PktY="13229.999"/>
+        <Pkt PktX="20.3581" PktY="12477"/>
+        <Pkt PktX="22.3056" PktY="11387"/>
+        <Pkt PktX="23.9289" PktY="10614.999"/>
+        <Pkt PktX="25.83" PktY="9833"/>
+        <Pkt PktX="27.7778" PktY="9144"/>
+        <Pkt PktX="27.9167"/>
+        <Stufe StufenWert="1"/>
+      </Kennfeld>
+      <Nachlaufsteuerung AnzahlSchaltstufen="40" GeschwAuf="8" GeschwAb="10"/>
+      <Drehstrommotor MotorMinFrequenz="0.4" MotorMaxFrequenz="120" MotorAnfahrspannung="75" spUmschalt="13.0556" MotorMaxSpannung="500" MotorkHysterese="0.0003" MotorkWirbelstrom="0.01" Motorkonstante="3.824562"/>
+    </AntriebsmodellElektrischDrehstrom>
+    <DynbremseElektrDrehstrom etaTrafo="0.8" etaMotor="0.97" Motorkonstante="4.5605" MotorMinFrequenz="0.4" MotorMaxFrequenz="120" MotorMaxSpannung="500" spUmschalt="3.3867" Volt="2" Leistung="234403.9531" Antriebsachsen="4" Reibmasse="28450" GueteKraftverteilung="0.9" GrenzdruckHL="3">
+      <Kennfeld>
+        <Pkt/>
+        <Pkt PktX="2.7464" PktY="74155"/>
+        <Pkt PktX="2.7814" PktY="75000"/>
+        <Pkt PktX="3.3722" PktY="75000"/>
+        <Pkt PktX="4.2067" PktY="60380.9961"/>
+        <Pkt PktX="5.2497" PktY="48383.9961"/>
+        <Pkt PktX="5.8058" PktY="43748.9961"/>
+        <Pkt PktX="6.675" PktY="38052"/>
+        <Pkt PktX="8.0308" PktY="31627.998"/>
+        <Pkt PktX="8.9" PktY="28538.998"/>
+        <Pkt PktX="10.4992" PktY="24191.998"/>
+        <Pkt PktX="11.9594" PktY="21238.998"/>
+        <Pkt PktX="14.115" PktY="17995"/>
+        <Pkt PktX="15.2622" PktY="16642"/>
+        <Pkt PktX="16.4789" PktY="15413.999"/>
+        <Pkt PktX="18.2519" PktY="13915.999"/>
+        <Pkt PktX="20.5814" PktY="12340.999"/>
+        <Pkt PktX="22.5281" PktY="11274.999"/>
+        <Pkt PktX="25.4136" PktY="9995"/>
+        <Pkt PktX="27.7778" PktY="9144"/>
+        <Stufe StufenWert="1"/>
+      </Kennfeld>
+      <Nachlaufsteuerung AnzahlSchaltstufen="40" GeschwAuf="8" GeschwAb="8"/>
+    </DynbremseElektrDrehstrom>
+    <FzgTuersystemTAV/>
+    <ExterneDatei>
+      <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Vorlagen\Stahlbruecke.component.fzg"/>
+    </ExterneDatei>
+    <ExterneDatei>
+      <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Vorlagen\Steinbruecke.component.fzg"/>
+    </ExterneDatei>
+    <ExterneDatei>
+      <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Vorlagen\Tunnel.component.fzg"/>
+    </ExterneDatei>
+    <FktIndividuell PhysikGroesse="149"/>
+    <FktIndividuell PhysikGroesse="55"/>
+    <FktIndividuell PhysikGroesse="56"/>
+    <FktIndividuell PhysikGroesse="57"/>
+    <FktIndividuell PhysikGroesse="58"/>
+    <FktIndividuell PhysikGroesse="59"/>
+    <FktIndividuell PhysikGroesse="60"/>
+    <FktIndividuell PhysikGroesse="64"/>
+    <FktIndividuell PhysikGroesse="65"/>
+    <FktIndividuell PhysikGroesse="66"/>
+    <FktIndividuell PhysikGroesse="67"/>
+    <FktIndividuell PhysikGroesse="68"/>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Hintergrund.wav"/>
+      </Sound>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Rollen_90.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt PktX="11.111"/>
+          <Pkt PktX="13.888" PktY="0.08"/>
+          <Pkt PktX="16.666" PktY="0.2"/>
+          <Pkt PktX="19.444" PktY="0.4"/>
+          <Pkt PktX="22.222" PktY="0.64"/>
+          <Pkt PktX="25" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Stromrichter_2.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt PktX="5.555"/>
+          <Pkt PktX="6.11" PktY="0.247"/>
+          <Pkt PktX="6.666" PktY="0.47"/>
+          <Pkt PktX="7.222" PktY="0.647"/>
+          <Pkt PktX="7.777" PktY="0.761"/>
+          <Pkt PktX="8.333" PktY="0.8"/>
+          <Pkt PktX="13.887" PktY="0.6"/>
+          <Pkt PktX="13.888"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="144" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-1" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="1" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Stromrichter_1.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt PktX="2.778"/>
+          <Pkt PktX="3.333" PktY="0.247"/>
+          <Pkt PktX="3.889" PktY="0.47"/>
+          <Pkt PktX="4.444" PktY="0.647"/>
+          <Pkt PktX="5" PktY="0.761"/>
+          <Pkt PktX="5.555" PktY="0.8"/>
+          <Pkt PktX="6.11" PktY="0.761"/>
+          <Pkt PktX="6.666" PktY="0.647"/>
+          <Pkt PktX="7.222" PktY="0.47"/>
+          <Pkt PktX="7.777" PktY="0.247"/>
+          <Pkt PktX="8.333"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="144" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-1" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="1" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Stromrichter_1-2.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt/>
+          <Pkt PktX="0.555" PktY="0.247"/>
+          <Pkt PktX="1.111" PktY="0.47"/>
+          <Pkt PktX="1.667" PktY="0.647"/>
+          <Pkt PktX="2.222" PktY="0.761"/>
+          <Pkt PktX="2.777" PktY="0.8"/>
+          <Pkt PktX="3.333" PktY="0.761"/>
+          <Pkt PktX="3.889" PktY="0.647"/>
+          <Pkt PktX="4.444" PktY="0.47"/>
+          <Pkt PktX="5" PktY="0.247"/>
+          <Pkt PktX="5.556"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="144" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-1" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="1" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Stromrichter_1-4.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt PktY="0.8"/>
+          <Pkt PktX="0.5555" PktY="0.7609"/>
+          <Pkt PktX="1.1111" PktY="0.6473"/>
+          <Pkt PktX="1.6667" PktY="0.4702"/>
+          <Pkt PktX="2.2222" PktY="0.2472"/>
+          <Pkt PktX="2.777"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="144" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-1" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="1" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="9" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-0.001" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="0.001" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1" GeschwAendern="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Fahren_20.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="144" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-1" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="1" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt/>
+          <Pkt PktX="2.777" PktY="1"/>
+          <Pkt PktX="5.555" PktY="0.2"/>
+          <Pkt PktX="11.111"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="95" SoundGeschwAbh="1">
+        <Kennfeld>
+          <Pkt/>
+          <Pkt PktX="22.222" PktY="4"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1" GeschwAendern="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Fahren_50.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="144" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt PktX="-1" PktY="1"/>
+          <Pkt/>
+          <Pkt PktX="1" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1" SoundOperator="2">
+        <Kennfeld>
+          <Pkt/>
+          <Pkt PktX="5.555" PktY="0.5"/>
+          <Pkt PktX="9.72" PktY="0.5"/>
+          <Pkt PktX="13.887" PktY="0.5"/>
+          <Pkt PktX="13.888" PktY="1"/>
+          <Pkt PktX="16" PktY="0.8"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="95" SoundGeschwAbh="1">
+        <Kennfeld>
+          <Pkt/>
+          <Pkt PktX="55.5555" PktY="4"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Rollen_40.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt/>
+          <Pkt PktX="2.222" PktY="0.04"/>
+          <Pkt PktX="4.444" PktY="0.16"/>
+          <Pkt PktX="6.667" PktY="0.36"/>
+          <Pkt PktX="8.888" PktY="0.64"/>
+          <Pkt PktX="11.111" PktY="1"/>
+          <Pkt PktX="13.888" PktY="0.64"/>
+          <Pkt PktX="16.666" PktY="0.36"/>
+          <Pkt PktX="19.444" PktY="0.16"/>
+          <Pkt PktX="22.222" PktY="0.04"/>
+          <Pkt PktX="25"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Schalten_Anfahrt.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt PktY="1"/>
+          <Pkt PktX="0.01"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+      <Abhaengigkeit PhysikGroesse="144" Trigger="1" TriggerGrenze="0.001">
+        <Kennfeld>
+          <Stufe/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Loop="1" Autostart="1" Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Quietschen.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="95" LautstaerkeAbh="1">
+        <Kennfeld>
+          <Pkt PktX="25"/>
+          <Pkt PktX="30" PktY="1"/>
+          <Stufe StufenWert="1"/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+    <FahrzeugSound>
+      <Sound Lautstaerke="1">
+        <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Weiche_40.wav"/>
+      </Sound>
+      <Abhaengigkeit PhysikGroesse="44" Trigger="1" TriggerGrenze="0.1">
+        <Kennfeld>
+          <Stufe/>
+        </Kennfeld>
+      </Abhaengigkeit>
+    </FahrzeugSound>
+  </Fahrzeug>
+</Zusi>

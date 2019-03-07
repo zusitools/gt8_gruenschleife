@@ -1,0 +1,3406 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Zusi>
+  <Info DateiTyp="Fuehrerstand" Version="A.1" MinVersion="A.1">
+    <AutorEintrag AutorID="36" AutorName="Johannes Jung" AutorBeschreibung="Unterstützung Texturfotografie und technische Informationen: Lutz Brauweiler"/>
+  </Info>
+  <Fuehrerstand>
+    <Funktionalitaeten>
+      <Kombischalter Grundstellung="11" Mittelposition="11" NameSchalter="Infotext Fahrstufe" FktName="Fahr-/Bremsschalter" Tastaturzuordnung="1">
+        <Raste>
+          <Belegung FunktionStr="HllBremsen"/>
+          <Belegung FunktionStr="ZugkraftSchnellAus"/>
+          <Belegung FunktionStr="MgBremse" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste SperreRunter="1" SperrZeit="0.3">
+          <Belegung FunktionStr="ComputerBremseX" Parameter="1"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.9"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.8"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.7"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.6"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.5"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.4"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.3"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.2"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="ComputerBremseX" Parameter="0.1"/>
+          <Belegung FunktionStr="MgBremse"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste SperreRauf="1" SperreRunter="1" SperrZeit="0.3">
+          <Belegung FunktionStr="Fahrstufe"/>
+          <Belegung FunktionStr="DynBremsenull"/>
+          <Belegung FunktionStr="HllDruck" Parameter="5"/>
+          <Belegung FunktionStr="ComputerBremseX"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.1"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.2"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.3"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.4"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.5"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.6"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.7"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.8"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="0.9"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Fahrstufe" Parameter="1"/>
+          <Belegung FunktionStr="WandlerfuellungX" Parameter="1"/>
+          <Koppelung NameGekoppelterSchalter="Richtungsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter Grundstellung="2" Mittelposition="1" NameSchalter="Infotext Rischa" FktName="Richtungsschalter" Tastaturzuordnung="7">
+        <Raste>
+          <Belegung FunktionStr="RischaR"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Rischa0"/>
+          <Koppelung NameGekoppelterSchalter="Fahr-/Bremsschalter" Koppelart="Koppelart_Verriegeln"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="RischaV"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" FedertOben="1" Grundstellung="1" Mittelposition="1" NameSchalter="Batteriehauptschalter" FktName="Batteriehauptschalter" Tastaturzuordnung="70">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="BatterieHSAus"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="BatterieHSEin"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" FedertOben="1" Grundstellung="1" Mittelposition="1" NameSchalter="Linienschuetz" FktName="Linienschuetz" Tastaturzuordnung="17">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="HauptschalterAus"/>
+        </Raste>
+        <Raste/>
+        <Raste>
+          <Belegung FunktionStr="HauptschalterEin"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" FedertOben="1" Grundstellung="1" Mittelposition="1" NameSchalter="Stromabnehmer" FktName="Stromabnehmer" Tastaturzuordnung="43">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="StromabnehmerAb"/>
+        </Raste>
+        <Raste/>
+        <Raste>
+          <Belegung FunktionStr="StromabnehmerAuf"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="Heizung/Lueftung" FktName="Heizung/Lueftung">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+          <Koppelung NameGekoppelterSchalter="LM Heizung/Lueftung" Koppelart="Koppelart_Mitnehmen"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+          <Koppelung NameGekoppelterSchalter="LM Heizung/Lueftung" RastenNummer="1" Koppelart="Koppelart_Mitnehmen"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+          <Koppelung NameGekoppelterSchalter="LM Heizung/Lueftung" RastenNummer="2" Koppelart="Koppelart_Mitnehmen"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="Klimageraet" FktName="Klimageraet">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+          <Koppelung NameGekoppelterSchalter="LM Klimageraet" Koppelart="Koppelart_Mitnehmen"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+          <Koppelung NameGekoppelterSchalter="LM Klimageraet" RastenNummer="1" Koppelart="Koppelart_Mitnehmen"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+          <Koppelung NameGekoppelterSchalter="LM Klimageraet" RastenNummer="2" Koppelart="Koppelart_Mitnehmen"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="Beleuchtung" FktName="Beleuchtung">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="Nichts"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter NameSchalter="Federspeicher" FktName="Federspeicher" Tastaturzuordnung="69">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste>
+          <Belegung FunktionStr="FederspeicherNull"/>
+        </Raste>
+        <Raste>
+          <Belegung FunktionStr="FederspeicherAnlegen"/>
+        </Raste>
+      </Kombischalter>
+      <Kombischalter NameSchalter="Steilstrecke" FktName="Steilstrecke">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <PZB90I60R_V20 LMZugartO="LM PZB-Zugart O" LMZugartM="LM PZB-Zugart M" LM500Hz="LM PZB 500 Hz" LMBefehl="LM PZB Befehl" LM1000Hz="LM PZB 1000 Hz" Zugarten="4" SchalterWachsam="Indusi Wachsam" SchalterFrei="Indusi frei" SchalterBefehl="Indusi Befehl" IndusiGrenzdruckHL="2.2" FktName="PZB90/I60R - V2.0" Tastaturzuordnung="15">
+        <SoundIndusiHupe Loop="1" Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Zugbeeinflussung\PZB_LZB\Indusi_Hupe.wav"/>
+        </SoundIndusiHupe>
+        <IndusiErsatzzugdaten TfNummer="-" BRA="8" BRH="180"/>
+      </PZB90I60R_V20>
+      <Pfeife Taster="1" NameSchalter="-" FktName="Pfeife/Glocke" Tastaturzuordnung="12">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <SoundTief Loop="1" PosAnlauf="10912" PosAuslauf="32994" Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Epoche3\Dieselloks\BRD\V100_Familie\Sound\212_Pfeife.wav"/>
+        </SoundTief>
+      </Pfeife>
+      <TuerenTAV OhneFreigabe="1" NameDrehSchalter="-" SchalterTyp="1" LMinvers="1" NameSchalter="-" FktName="Türsystem TAV" Tastaturzuordnung="36">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <SoundSchliessvorgang Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Sound\GT8-100D_Tuer_schliessen.wav"/>
+        </SoundSchliessvorgang>
+      </TuerenTAV>
+      <SchleuderschutzElektr FktName="Elektronischer Schleuderschutz"/>
+      <Kombischalter FedertUnten="1" Taster="1" NameSchalter="Weiche links" FktName="Weiche links">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" Taster="1" NameSchalter="Weiche geradeaus" FktName="Weiche geradeaus">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" Taster="1" NameSchalter="Weiche rechts" FktName="Weiche rechts">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter Taster="1" NameSchalter="Blinker links" FktName="Blinker links">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter Taster="1" NameSchalter="Blinker rechts" FktName="Blinker rechts">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Tastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <MgBremseManuell NameSchalter="Mg-Bremse pruefen" FktName="Manuelle Mg-Bremse" Tastaturzuordnung="20">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+      </MgBremseManuell>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="Tueren 1" FktName="Tuerfreigabe" Tastaturzuordnung="34">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter FedertOben="1" Grundstellung="1" Mittelposition="1" NameSchalter="Tueren 2" FktName="Tueren Automatik/Alle zu" Tastaturzuordnung="35">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" NameSchalter="Ansage" FktName="Ansage">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="Lautsprecher" FktName="Lautsprecher">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter NameSchalter="Scheibenwischer" FktName="Scheibenwischer">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="LM Heizung/Lueftung" FktName="LM Heizung/Lueftung">
+        <Raste/>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter Grundstellung="1" Mittelposition="1" NameSchalter="LM Klimageraet" FktName="LM Klimageraet">
+        <Raste/>
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter NameSchalter="LM Fernlicht" FktName="LM Fernlicht" Tastaturzuordnung="74">
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Sifa_ZeitWeg Taster="1" FktName="Zeit-Weg-Sifa" Tastaturzuordnung="16">
+        <SoundSifa Loop="1" Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Sifa\Sifa_tief.wav"/>
+        </SoundSifa>
+      </Sifa_ZeitWeg>
+      <FtdIndividuell FktName="Fernlicht" Tastaturzuordnung="74"/>
+      <FtdIndividuell FktName="Tuer 1 offen" Tastaturzuordnung="22"/>
+      <FtdIndividuell FktName="Tuer 2 offen" Tastaturzuordnung="23"/>
+      <FtdIndividuell FktName="Tuer 3 offen" Tastaturzuordnung="24"/>
+      <FtdIndividuell FktName="Tuer 4 offen" Tastaturzuordnung="25"/>
+      <FtdIndividuell FktName="Gruenschleife" Tastaturzuordnung="26"/>
+      <FtdIndividuell FktName="LM Kinderwagen" Tastaturzuordnung="27"/>
+      <FtdIndividuell FktName="Taster Tueren links" Tastaturzuordnung="31"/>
+      <FtdIndividuell FktName="Taster Tueren rechts" Tastaturzuordnung="32"/>
+      <FtdIndividuell FktName="Taster Tueren links+rechts" Tastaturzuordnung="33"/>
+      <Kombischalter FedertUnten="1" NameSchalter="LM Tuerseitenvorwahl links Klickflaeche" FktName="Tuerseitenvorwahl links" Tastaturzuordnung="31">
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" NameSchalter="LM Tuerseitenvorwahl rechts Klickflaeche" FktName="Tuerseitenvorwahl rechts" Tastaturzuordnung="32">
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Kombischalter FedertUnten="1" NameSchalter="LM Tuerseitenvorwahl links+rechts Klickflaeche" FktName="Tuerseitenvorwahl links+rechts" Tastaturzuordnung="33">
+        <Raste/>
+        <Raste/>
+      </Kombischalter>
+      <Notaus NameSchalter="Notbremse" FktName="Notaus" Tastaturzuordnung="68">
+        <RastSound Lautstaerke="1">
+          <Datei Dateiname="RollingStock\Deutschland\Gemeinsame_Daten\Generische_Sounds\Schalter\Rastschalter.wav"/>
+        </RastSound>
+      </Notaus>
+    </Funktionalitaeten>
+    <Grafik>
+      <RenderFlags TexVoreinstellung="2"/>
+      <Grunddaten GrafikName="Standardansicht 4:3" FtdQualitaet="62">
+        <p X="-1.62" Y="-0.15" Z="2.6"/>
+        <lookat X="10" Y="-0.45" Z="2.5"/>
+        <up X="-1.5339" Y="-0.15" Z="12.5996"/>
+      </Grunddaten>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fake-HG" PhysikGroesse="40" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1/>
+        <FstTextur>
+          <EinzelTextur Vol="-0.3431" Uur="1.9028" Vur="1.084">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="3D-Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1/>
+        <Ueberdeckend InstrName="HG links"/>
+        <Ueberdeckend InstrName="HG Mikrofon"/>
+        <Ueberdeckend InstrName="HG rechts"/>
+        <Ueberdeckend InstrName="HG Scheibenwischer"/>
+        <InstrPkt2 Y="0.8655"/>
+        <InstrPkt3 X="1" Y="0.8655"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG links" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 Y="0.7232"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.001" Uur="0.998" Vur="0.396">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Batteriehauptschalter"/>
+        <Ueberdeckend InstrName="Batteriespannung-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Beleuchtung"/>
+        <Ueberdeckend InstrName="Blinker links"/>
+        <Ueberdeckend InstrName="Blinker rechts"/>
+        <Ueberdeckend InstrName="Federspeicher"/>
+        <Ueberdeckend InstrName="Heizung/Lueftung"/>
+        <Ueberdeckend InstrName="Indusi Befehl"/>
+        <Ueberdeckend InstrName="Indusi frei"/>
+        <Ueberdeckend InstrName="Infotext-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Klimageraet"/>
+        <Ueberdeckend InstrName="Linienschuetz"/>
+        <Ueberdeckend InstrName="LM Federsp. notgeloest"/>
+        <Ueberdeckend InstrName="LM Fernlicht"/>
+        <Ueberdeckend InstrName="LM Heizung/Lueftung"/>
+        <Ueberdeckend InstrName="LM Klimageraet"/>
+        <Ueberdeckend InstrName="LM Linienschuetz"/>
+        <Ueberdeckend InstrName="LM PZB 1000 Hz"/>
+        <Ueberdeckend InstrName="LM PZB 500 Hz"/>
+        <Ueberdeckend InstrName="LM PZB Befehl"/>
+        <Ueberdeckend InstrName="LM PZB-Zugart M"/>
+        <Ueberdeckend InstrName="LM PZB-Zugart O"/>
+        <Ueberdeckend InstrName="LM Sammelstoerung"/>
+        <Ueberdeckend InstrName="LM Stromabnehmer"/>
+        <Ueberdeckend InstrName="LM Zwangsbremse"/>
+        <Ueberdeckend InstrName="Mg-Bremse pruefen"/>
+        <Ueberdeckend InstrName="Stromabnehmer"/>
+        <Ueberdeckend InstrName="Tacho-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Weiche geradeaus"/>
+        <Ueberdeckend InstrName="Weiche links"/>
+        <Ueberdeckend InstrName="Weiche rechts"/>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="0.5245" Y="1"/>
+        <InstrPkt4 X="0.5245" Y="0.7232"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG rechts" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.5245" Y="0.7232"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.001" Vol="0.3979" Uur="0.9058" Vur="0.793">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Bremsdruck-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Indusi Wachsam"/>
+        <Ueberdeckend InstrName="LM Gruenschleife"/>
+        <Ueberdeckend InstrName="LM Haltewunsch"/>
+        <Ueberdeckend InstrName="LM Hochbahnsteig"/>
+        <Ueberdeckend InstrName="LM Kinderwagen"/>
+        <Ueberdeckend InstrName="LM Tuer 1 offen"/>
+        <Ueberdeckend InstrName="LM Tuer 2 offen"/>
+        <Ueberdeckend InstrName="LM Tuer 3 offen"/>
+        <Ueberdeckend InstrName="LM Tuer 4 offen"/>
+        <Ueberdeckend InstrName="Nachtbeleuchtung Oberspannung 15kV"/>
+        <Ueberdeckend InstrName="Nachtbeleuchtung Oberspannung 750V"/>
+        <Ueberdeckend InstrName="Notbremse"/>
+        <Ueberdeckend InstrName="Scheibenwischer"/>
+        <Ueberdeckend InstrName="LM Tuerseitenvorwahl links"/>
+        <Ueberdeckend InstrName="LM Tuerseitenvorwahl rechts"/>
+        <Ueberdeckend InstrName="LM Tuerseitenvorwahl links+rechts"/>
+        <Ueberdeckend InstrName="Steilstrecke"/>
+        <Ueberdeckend InstrName="Tueren 1"/>
+        <Ueberdeckend InstrName="Tueren 2"/>
+        <Ueberdeckend InstrName="Uhr-Nachtbeleuchtung"/>
+        <InstrPkt2 X="0.5245" Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1" Y="0.7232"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG Scheibenwischer" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.902" Y="0.5857"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.8018" Uur="0.1865" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.902" Y="0.7232"/>
+        <InstrPkt3 X="1" Y="0.7232"/>
+        <InstrPkt4 X="1" Y="0.5857"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG Mikrofon" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 Y="0.547"/>
+        <FstTextur>
+          <EinzelTextur Uur="0.7217" Vur="0.5029">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 Y="0.7232"/>
+        <InstrPkt3 X="0.1896" Y="0.7232"/>
+        <InstrPkt4 X="0.1896" Y="0.547"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Uhr-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7321" Y="0.7605"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.396" Vol="0.4512" Uur="0.5195" Vur="0.4907">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.4082" Vol="0.0039" Uur="0.9023" Vur="0.1621">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Uhr"/>
+        <InstrPkt2 X="0.7321" Y="0.7882"/>
+        <InstrPkt3 X="0.797" Y="0.7882"/>
+        <InstrPkt4 X="0.797" Y="0.7605"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Uhr" PhysikGroesse="35" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7357" Y="0.7684"/>
+        <Ueberdeckend InstrName="Uhr-Sekundenabdeckung"/>
+        <InstrPkt2 X="0.7357" Y="0.7872"/>
+        <InstrPkt3 X="0.8237" Y="0.7872"/>
+        <InstrPkt4 X="0.8237" Y="0.7684"/>
+        <Font Dateiname="Rollingstock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\schrift.font.xml"/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Uhr-Sekundenabdeckung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7857" Y="0.7677"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.2051" Vol="0.5898" Uur="0.4043" Vur="0.7051">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7857" Y="0.7879"/>
+        <InstrPkt3 X="0.8119" Y="0.7879"/>
+        <InstrPkt4 X="0.8119" Y="0.7677"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Infotext="1" Farbe="FFFFFFFF" InstrName="Infotext-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.0352" Y="0.8693"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0669" Vol="0.2095" Uur="0.1055" Vur="0.228">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.8418" Vol="0.4023" Uur="0.9961" Vur="0.4766">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Infotext Fahrstufe"/>
+        <Ueberdeckend InstrName="Infotext Rischa"/>
+        <InstrPkt2 X="0.0352" Y="0.8823"/>
+        <InstrPkt3 X="0.0554" Y="0.8823"/>
+        <InstrPkt4 X="0.0554" Y="0.8693"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="21" Vorkomma="2" Infotext="1" Farbe="00FFFFFF" InstrName="Infotext Fahrstufe" Faktor="1" DunkelFarbe="00FFFFFF">
+        <InstrPkt1 X="0.0357" Y="0.8703"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.397" Uur="0.9316" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.397" Uur="0.9575" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.397" Uur="0.9834" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4136" Uur="0.9316" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4136" Uur="0.9575" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4136" Uur="0.9834" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4302" Uur="0.9316" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4302" Uur="0.9575" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4302" Uur="0.9834" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4468" Uur="0.9316" Vur="0.4624">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4468" Uur="0.9575" Vur="0.4624">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4468" Uur="0.9834" Vur="0.4624">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4634" Uur="0.9316" Vur="0.479">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4634" Uur="0.9575" Vur="0.479">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4634" Uur="0.9834" Vur="0.479">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.48" Uur="0.9316" Vur="0.4956">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.48" Uur="0.9575" Vur="0.4956">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.48" Uur="0.9834" Vur="0.4956">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4966" Uur="0.9316" Vur="0.5122">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4966" Uur="0.9575" Vur="0.5122">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4966" Uur="0.9834" Vur="0.5122">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.5132" Uur="0.9316" Vur="0.5288">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.0357" Y="0.8813"/>
+        <InstrPkt3 X="0.0488" Y="0.8813"/>
+        <InstrPkt4 X="0.0488" Y="0.8703"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Infotext="1" Farbe="FFFFFFFF" InstrName="Infotext Rischa" Faktor="1" DunkelFarbe="00FFFFFF">
+        <InstrPkt1 X="0.0513" Y="0.8703"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.397" Uur="0.9907" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.4136" Uur="0.9907" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.4302" Uur="0.9907" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.0513" Y="0.8813"/>
+        <InstrPkt3 X="0.0547" Y="0.8813"/>
+        <InstrPkt4 X="0.0547" Y="0.8703"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="3" InstrName="Tachozeiger" PhysikGroesse="139" Faktor="3.6" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.4568" Y="0.7971"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.4468" Uur="0.9951" Vur="0.6567">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="DEUTA Tacho"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0361" ZeigerBreite="0.0028" ZeigerWinkel="1.1242"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0361" ZeigerBreite="0.0028" ZeigerWinkel="1.2603" ZeigerWert="5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0367" ZeigerBreite="0.0028" ZeigerWinkel="1.4102" ZeigerWert="10"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0362" ZeigerBreite="0.0028" ZeigerWinkel="1.564" ZeigerWert="15"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0357" ZeigerBreite="0.0028" ZeigerWinkel="1.6986" ZeigerWert="20"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0353" ZeigerBreite="0.0028" ZeigerWinkel="1.8556" ZeigerWert="25"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0344" ZeigerBreite="0.0028" ZeigerWinkel="2.0036" ZeigerWert="30"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.033" ZeigerBreite="0.0028" ZeigerWinkel="2.1735" ZeigerWert="35"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0319" ZeigerBreite="0.0028" ZeigerWinkel="2.3419" ZeigerWert="40"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0306" ZeigerBreite="0.0028" ZeigerWinkel="2.5351" ZeigerWert="45"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.03" ZeigerBreite="0.0028" ZeigerWinkel="2.7257" ZeigerWert="50"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0293" ZeigerBreite="0.0028" ZeigerWinkel="2.9472" ZeigerWert="55"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.029" ZeigerBreite="0.0028" ZeigerWinkel="3.1561" ZeigerWert="60"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.029" ZeigerBreite="0.0028" ZeigerWinkel="3.376" ZeigerWert="65"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.03" ZeigerBreite="0.0028" ZeigerWinkel="3.5711" ZeigerWert="70"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0306" ZeigerBreite="0.0028" ZeigerWinkel="3.7783" ZeigerWert="75"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0316" ZeigerBreite="0.0028" ZeigerWinkel="3.9609" ZeigerWert="80"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0331" ZeigerBreite="0.0028" ZeigerWinkel="4.1427" ZeigerWert="85"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0341" ZeigerBreite="0.0028" ZeigerWinkel="4.3049" ZeigerWert="90"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0352" ZeigerBreite="0.0028" ZeigerWinkel="4.4703" ZeigerWert="95"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0358" ZeigerBreite="0.0028" ZeigerWinkel="4.6211" ZeigerWert="100"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0362" ZeigerBreite="0.0028" ZeigerWinkel="4.7688" ZeigerWert="105"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0361" ZeigerBreite="0.0028" ZeigerWinkel="4.9054" ZeigerWert="110"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.036" ZeigerBreite="0.0028" ZeigerWinkel="5.052" ZeigerWert="115"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0354" ZeigerBreite="0.0028" ZeigerWinkel="5.1906" ZeigerWert="120"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="DEUTA Tacho" Faktor="1" DunkelFarbe="004B4B4B">
+        <InstrPkt1 X="0.446" Y="0.7821"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.729" Vol="0.915" Uur="0.7686" Vur="0.9478">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.446" Y="0.805"/>
+        <InstrPkt3 X="0.4668" Y="0.805"/>
+        <InstrPkt4 X="0.4668" Y="0.7821"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Tacho-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.418" Y="0.7496"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7954" Vol="0.0386" Uur="0.9424" Vur="0.1675">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.4082" Vol="0.4805" Uur="0.9961" Vur="0.9961">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Tachozeiger"/>
+        <InstrPkt2 X="0.418" Y="0.8399"/>
+        <InstrPkt3 X="0.4953" Y="0.8399"/>
+        <InstrPkt4 X="0.4953" Y="0.7496"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="100" InstrName="Batteriespannungszeiger" PhysikGroesse="140" Faktor="27.5" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.3023" Y="0.7786"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.5337" Uur="0.9951" Vur="0.7437">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="DEUTA Batteriespannung"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0208" ZeigerBreite="0.0031" ZeigerWinkel="4.279" ZeigerWert="27.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0216" ZeigerBreite="0.0031" ZeigerWinkel="4.7124" ZeigerWert="22.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0193" ZeigerBreite="0.0031" ZeigerWinkel="5.2117" ZeigerWert="17.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0173" ZeigerBreite="0.0031" ZeigerWinkel="5.8064" ZeigerWert="12.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.018" ZeigerBreite="0.0031" ZeigerWinkel="6.4554" ZeigerWert="7.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0205" ZeigerBreite="0.0031" ZeigerWinkel="7.0244" ZeigerWert="2.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0224" ZeigerBreite="0.0031" ZeigerWinkel="7.4777" ZeigerWert="-2.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0213" ZeigerBreite="0.0031" ZeigerWinkel="7.9022" ZeigerWert="-7.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0196" ZeigerBreite="0.0031" ZeigerWinkel="8.3294" ZeigerWert="-12.5"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="DEUTA Batteriespannung" Faktor="1" DunkelFarbe="004B4B4B">
+        <InstrPkt1 X="0.2928" Y="0.7649"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.9692" Uur="0.9429" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2928" Y="0.7858"/>
+        <InstrPkt3 X="0.3118" Y="0.7858"/>
+        <InstrPkt4 X="0.3118" Y="0.7649"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Batteriespannung-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2794" Y="0.7496"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5317" Vol="0.0386" Uur="0.6196" Vur="0.1104">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.0566" Vol="0.709" Uur="0.4082" Vur="0.9961">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Batteriespannungszeiger"/>
+        <InstrPkt2 X="0.2794" Y="0.7998"/>
+        <InstrPkt3 X="0.3256" Y="0.7998"/>
+        <InstrPkt4 X="0.3256" Y="0.7496"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="3" InstrName="Zeiger Druck HLL" PhysikGroesse="2" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.61" Y="0.7814"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.5132" Uur="0.9829" Vur="0.6475">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="0.7355"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0153" ZeigerBreite="0.0062" ZeigerWinkel="1.0996" ZeigerWert="1"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.016" ZeigerBreite="0.0062" ZeigerWinkel="1.4743" ZeigerWert="2"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0164" ZeigerBreite="0.0062" ZeigerWinkel="1.8082" ZeigerWert="3"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="2.1363" ZeigerWert="4"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="2.5192" ZeigerWert="5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0133" ZeigerBreite="0.0062" ZeigerWinkel="2.948" ZeigerWert="6"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.013" ZeigerBreite="0.0062" ZeigerWinkel="3.4633" ZeigerWert="7"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0142" ZeigerBreite="0.0062" ZeigerWinkel="3.9526" ZeigerWert="8"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="4.3651" ZeigerWert="9"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="4.7124" ZeigerWert="10"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0178" ZeigerBreite="0.0062" ZeigerWinkel="5.0204" ZeigerWert="11"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="5.3412" ZeigerWert="12"/>
+      </Zeigerinstrument>
+      <Zeigerinstrument Traegheit="3" InstrName="Zeiger Druck HBL" PhysikGroesse="4" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.61" Y="0.7821"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.5132" Uur="0.957" Vur="0.6475">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Druck HLL"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="0.7355"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0153" ZeigerBreite="0.0062" ZeigerWinkel="1.0996" ZeigerWert="1"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.016" ZeigerBreite="0.0062" ZeigerWinkel="1.4743" ZeigerWert="2"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0164" ZeigerBreite="0.0062" ZeigerWinkel="1.8082" ZeigerWert="3"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="2.1363" ZeigerWert="4"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="2.5192" ZeigerWert="5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0133" ZeigerBreite="0.0062" ZeigerWinkel="2.948" ZeigerWert="6"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.013" ZeigerBreite="0.0062" ZeigerWinkel="3.4633" ZeigerWert="7"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0142" ZeigerBreite="0.0062" ZeigerWinkel="3.9526" ZeigerWert="8"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="4.3651" ZeigerWert="9"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="4.7124" ZeigerWert="10"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0178" ZeigerBreite="0.0062" ZeigerWinkel="5.0204" ZeigerWert="11"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="5.3412" ZeigerWert="12"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Bremsdruck-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.5876" Y="0.7519"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.1211" Vol="0.439" Uur="0.2104" Vur="0.5078">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.5625" Vol="0.7842" Uur="0.7412" Vur="0.9219">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Druck HBL"/>
+        <InstrPkt2 X="0.5876" Y="0.8002"/>
+        <InstrPkt3 X="0.6346" Y="0.8002"/>
+        <InstrPkt4 X="0.6346" Y="0.7519"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="0.2" InstrName="Zeiger Oberspannung 750V" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6579" Y="0.7708"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.9346" Uur="0.2266" Vur="0.9438">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <ZeigerStuetzpunkt ZeigerX="0.018" ZeigerY="0.0506" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2605"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0177" ZeigerY="0.0452" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2469" ZeigerWert="100"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0169" ZeigerY="0.0393" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2333" ZeigerWert="200"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0164" ZeigerY="0.0339" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2295" ZeigerWert="300"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0154" ZeigerY="0.0284" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2258" ZeigerWert="400"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0144" ZeigerY="0.0233" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2251" ZeigerWert="500"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0133" ZeigerY="0.0188" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2244" ZeigerWert="600"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0121" ZeigerY="0.0144" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2031" ZeigerWert="700"/>
+        <ZeigerStuetzpunkt ZeigerX="0.011" ZeigerY="0.0106" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1818" ZeigerWert="800"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0095" ZeigerY="0.0072" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1683" ZeigerWert="900"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0082" ZeigerY="0.0041" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1549" ZeigerWert="1000"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Nachtbeleuchtung Oberspannung 750V" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.6538" Y="0.7537"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.2471" Vol="0.4414" Uur="0.3047" Vur="0.5732">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.8828" Vol="0.6563" Uur="0.998" Vur="0.9199">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Oberspannung 750V"/>
+        <InstrPkt2 X="0.6538" Y="0.846"/>
+        <InstrPkt3 X="0.6841" Y="0.846"/>
+        <InstrPkt4 X="0.6841" Y="0.7537"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="0.2" InstrName="Zeiger Oberspannung 15kV" PhysikGroesse="14" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6934" Y="0.7708"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.9346" Uur="0.2266" Vur="0.9438">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <ZeigerStuetzpunkt ZeigerX="0.018" ZeigerY="0.0506" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2605"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0177" ZeigerY="0.0452" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2469" ZeigerWert="2000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0169" ZeigerY="0.0393" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2333" ZeigerWert="4000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0164" ZeigerY="0.0339" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2295" ZeigerWert="6000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0154" ZeigerY="0.0284" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2258" ZeigerWert="8000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0144" ZeigerY="0.0233" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2251" ZeigerWert="10000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0133" ZeigerY="0.0188" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2244" ZeigerWert="11999.999"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0121" ZeigerY="0.0144" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2031" ZeigerWert="14000.001"/>
+        <ZeigerStuetzpunkt ZeigerX="0.011" ZeigerY="0.0106" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1818" ZeigerWert="16000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0095" ZeigerY="0.0072" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1683" ZeigerWert="18000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0082" ZeigerY="0.0041" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1549" ZeigerWert="20000"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Nachtbeleuchtung Oberspannung 15kV" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.689" Y="0.754"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.314" Vol="0.4419" Uur="0.375" Vur="0.5732">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.7588" Vol="0.6563" Uur="0.8809" Vur="0.9189">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Oberspannung 15kV"/>
+        <InstrPkt2 X="0.689" Y="0.846"/>
+        <InstrPkt3 X="0.7211" Y="0.846"/>
+        <InstrPkt4 X="0.7211" Y="0.754"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Federspeicher" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1227" Y="0.7636"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4023" Vol="0.9521" Uur="0.4751" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1227" Y="0.7964"/>
+        <InstrPkt3 X="0.1609" Y="0.7964"/>
+        <InstrPkt4 X="0.1609" Y="0.7636"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Sammelstoerung" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1237" Y="0.8317"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.585" Vol="0.9604" Uur="0.6284" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1237" Y="0.8587"/>
+        <InstrPkt3 X="0.1465" Y="0.8587"/>
+        <InstrPkt4 X="0.1465" Y="0.8317"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB-Zugart O" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1917" Y="0.7441"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.6484" Uur="0.9443" Vur="0.6719">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1917" Y="0.7605"/>
+        <InstrPkt3 X="0.2114" Y="0.7605"/>
+        <InstrPkt4 X="0.2114" Y="0.7441"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB-Zugart M" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2135" Y="0.7441"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9458" Vol="0.6484" Uur="0.9829" Vur="0.6714">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2135" Y="0.7602"/>
+        <InstrPkt3 X="0.233" Y="0.7602"/>
+        <InstrPkt4 X="0.233" Y="0.7441"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB 1000 Hz" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1871" Y="0.7605"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.6729" Uur="0.9492" Vur="0.6992">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1871" Y="0.779"/>
+        <InstrPkt3 X="0.2094" Y="0.779"/>
+        <InstrPkt4 X="0.2094" Y="0.7605"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB 500 Hz" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2094" Y="0.7612"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.7002" Uur="0.9458" Vur="0.7241">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2094" Y="0.7779"/>
+        <InstrPkt3 X="0.2299" Y="0.7779"/>
+        <InstrPkt4 X="0.2299" Y="0.7612"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB Befehl" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1845" Y="0.779"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.7251" Uur="0.9473" Vur="0.749">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1845" Y="0.7957"/>
+        <InstrPkt3 X="0.2058" Y="0.7957"/>
+        <InstrPkt4 X="0.2058" Y="0.779"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Indusi Befehl" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1799" Y="0.7957"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9561" Vol="0.7607" Uur="0.9834" Vur="0.7158">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1799" Y="0.8149"/>
+        <InstrPkt3 X="0.2035" Y="0.8149"/>
+        <InstrPkt4 X="0.2035" Y="0.7957"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Indusi frei" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2022" Y="0.7978"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9575" Vol="0.7148" Uur="0.9834" Vur="0.6729">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2022" Y="0.8159"/>
+        <InstrPkt3 X="0.2243" Y="0.8159"/>
+        <InstrPkt4 X="0.2243" Y="0.7978"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Federsp. notgeloest" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2374" Y="0.7615"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.75" Uur="0.9453" Vur="0.7729">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2374" Y="0.7776"/>
+        <InstrPkt3 X="0.2576" Y="0.7776"/>
+        <InstrPkt4 X="0.2576" Y="0.7615"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Zwangsbremse" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2317" Y="0.779"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.5386" Vol="0.9482" Uur="0.584" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2317" Y="0.8146"/>
+        <InstrPkt3 X="0.2556" Y="0.8146"/>
+        <InstrPkt4 X="0.2556" Y="0.779"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Linienschuetz" PhysikGroesse="19" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.1586" Y="0.8307"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.6294" Vol="0.9487" Uur="0.6851" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1586" Y="0.8659"/>
+        <InstrPkt3 X="0.1878" Y="0.8659"/>
+        <InstrPkt4 X="0.1878" Y="0.8307"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Stromabnehmer" PhysikGroesse="85" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.1958" Y="0.83"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.686" Vol="0.9482" Uur="0.7412" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1958" Y="0.8655"/>
+        <InstrPkt3 X="0.2248" Y="0.8655"/>
+        <InstrPkt4 X="0.2248" Y="0.83"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" MaxWert="1" InstrName="LM Heizung/Lueftung" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.2335" Y="0.8303"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7422" Vol="0.9487" Uur="0.7964" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7422" Vol="0.9487" Uur="0.7964" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Klickschutz links"/>
+        <InstrPkt2 X="0.2335" Y="0.8655"/>
+        <InstrPkt3 X="0.262" Y="0.8655"/>
+        <InstrPkt4 X="0.262" Y="0.8303"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Klimageraet" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.2707" Y="0.83"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7974" Vol="0.9478" Uur="0.8516" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7974" Vol="0.9478" Uur="0.8516" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Klickschutz links"/>
+        <InstrPkt2 X="0.2707" Y="0.8659"/>
+        <InstrPkt3 X="0.2992" Y="0.8659"/>
+        <InstrPkt4 X="0.2992" Y="0.83"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Fernlicht" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.3082" Y="0.83"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8525" Vol="0.9473" Uur="0.9058" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Klickschutz links"/>
+        <InstrPkt2 X="0.3082" Y="0.8662"/>
+        <InstrPkt3 X="0.3362" Y="0.8662"/>
+        <InstrPkt4 X="0.3362" Y="0.83"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Mg-Bremse pruefen" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.3564" Y="0.7776"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.958" Vol="0.771" Uur="0.999" Vur="0.8066">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.3564" Y="0.8026"/>
+        <InstrPkt3 X="0.378" Y="0.8026"/>
+        <InstrPkt4 X="0.378" Y="0.7776"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Hochbahnsteig" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5463" Y="0.9244"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9438" Vol="0.9639" Uur="0.9927" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5463" Y="0.949"/>
+        <InstrPkt3 X="0.572" Y="0.949"/>
+        <InstrPkt4 X="0.572" Y="0.9244"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Weiche links" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.4077" Y="0.8501"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.292" Vol="0.917" Uur="0.3789" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4077" Y="0.8785"/>
+        <InstrPkt3 X="0.4306" Y="0.8785"/>
+        <InstrPkt4 X="0.4306" Y="0.8501"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Weiche geradeaus" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.4455" Y="0.8505"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3809" Vol="0.9199" Uur="0.4688" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4455" Y="0.8779"/>
+        <InstrPkt3 X="0.4686" Y="0.8779"/>
+        <InstrPkt4 X="0.4686" Y="0.8505"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Weiche rechts" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.4829" Y="0.8501"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4717" Vol="0.9189" Uur="0.5605" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4829" Y="0.8779"/>
+        <InstrPkt3 X="0.5063" Y="0.8779"/>
+        <InstrPkt4 X="0.5063" Y="0.8501"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Blinker links" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.4154" Y="0.9001"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.6592" Vol="0.9248" Uur="0.7539" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4154" Y="0.9258"/>
+        <InstrPkt3 X="0.4403" Y="0.9258"/>
+        <InstrPkt4 X="0.4403" Y="0.9001"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Blinker rechts" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.4747" Y="0.9008"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8535" Vol="0.9277" Uur="0.9492" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4747" Y="0.9254"/>
+        <InstrPkt3 X="0.4999" Y="0.9254"/>
+        <InstrPkt4 X="0.4999" Y="0.9008"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Gruenschleife" PhysikGroesse="59" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5887" Y="0.8176"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.2417" Vol="0.936" Uur="0.2959" Vur="0.9985">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5887" Y="0.8614"/>
+        <InstrPkt3 X="0.6171" Y="0.8614"/>
+        <InstrPkt4 X="0.6171" Y="0.8176"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Kinderwagen" PhysikGroesse="60" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6241" Y="0.8296"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.9482" Uur="0.2407" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6241" Y="0.8652"/>
+        <InstrPkt3 X="0.652" Y="0.8652"/>
+        <InstrPkt4 X="0.652" Y="0.8296"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Haltewunsch" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.7395" Y="0.817"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.2969" Vol="0.9336" Uur="0.353" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7395" Y="0.8628"/>
+        <InstrPkt3 X="0.7691" Y="0.8628"/>
+        <InstrPkt4 X="0.7691" Y="0.817"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Steilstrecke" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.8147" Y="0.8279"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.354" Vol="0.957" Uur="0.4014" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.8147" Y="0.8573"/>
+        <InstrPkt3 X="0.8396" Y="0.8573"/>
+        <InstrPkt4 X="0.8396" Y="0.8279"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Notbremse" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.8401" Y="0.7643"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4761" Vol="0.9502" Uur="0.5376" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.8401" Y="0.7985"/>
+        <InstrPkt3 X="0.8725" Y="0.7985"/>
+        <InstrPkt4 X="0.8725" Y="0.7643"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Batteriehauptschalter" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.0939" Y="0.8751"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.5068" Uur="0.1914" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.1934" Vol="0.5068" Uur="0.3848" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.0939" Y="0.9716"/>
+        <InstrPkt3 X="0.1442" Y="0.9716"/>
+        <InstrPkt4 X="0.1442" Y="0.8751"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Linienschuetz" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1355" Y="0.8751"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5557" Vol="0.5068" Uur="0.7227" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3867" Vol="0.5068" Uur="0.5537" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1355" Y="0.9716"/>
+        <InstrPkt3 X="0.1794" Y="0.9716"/>
+        <InstrPkt4 X="0.1794" Y="0.8751"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Stromabnehmer" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1763" Y="0.8751"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.6543" Uur="1" Vur="0.4941">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.1621" Uur="1" Vur="0.002">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1763" Y="0.9716"/>
+        <InstrPkt3 X="0.2184" Y="0.9716"/>
+        <InstrPkt4 X="0.2184" Y="0.8751"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Heizung/Lueftung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2184" Y="0.8751"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.4922" Uur="1" Vur="0.3291">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.3271" Uur="1" Vur="0.1641">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2184" Y="0.9716"/>
+        <InstrPkt3 X="0.2612" Y="0.9716"/>
+        <InstrPkt4 X="0.2612" Y="0.8751"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Klimageraet" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2612" Y="0.8789"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.9121" Uur="0.2646" Vur="0.7842">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.2666" Vol="0.9121" Uur="0.5313" Vur="0.7842">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2612" Y="0.9716"/>
+        <InstrPkt3 X="0.2948" Y="0.9716"/>
+        <InstrPkt4 X="0.2948" Y="0.8789"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="3" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Beleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2948" Y="0.8737"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.269" Vol="0.7939" Uur="0.3496" Vur="0.9336">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.7939" Uur="0.2681" Vur="0.9336">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3506" Vol="0.7939" Uur="0.4312" Vur="0.9336">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2948" Y="0.9716"/>
+        <InstrPkt3 X="0.3372" Y="0.9716"/>
+        <InstrPkt4 X="0.3372" Y="0.8737"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Tueren 1" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.5876" Y="0.8737"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5078" Vol="0.7939" Uur="0.5825" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4321" Vol="0.7939" Uur="0.5068" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5876" Y="0.9692"/>
+        <InstrPkt3 X="0.6269" Y="0.9692"/>
+        <InstrPkt4 X="0.6269" Y="0.8737"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Tueren 2" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.6297" Y="0.8737"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5835" Vol="0.7939" Uur="0.6553" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.6563" Vol="0.7939" Uur="0.728" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6297" Y="0.9692"/>
+        <InstrPkt3 X="0.6674" Y="0.9692"/>
+        <InstrPkt4 X="0.6674" Y="0.8737"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Ansage" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.749" Y="0.8844"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.729" Vol="0.7939" Uur="0.8076" Vur="0.9141">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.749" Y="0.9685"/>
+        <InstrPkt3 X="0.7904" Y="0.9685"/>
+        <InstrPkt4 X="0.7904" Y="0.8844"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Lautsprecher" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7832" Y="0.8741"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.0039" Uur="0.3652" Vur="0.5469">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3691" Vol="0.3691" Uur="0.9121" Vur="0.0039">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Ansage"/>
+        <InstrPkt2 X="0.7832" Y="0.9692"/>
+        <InstrPkt3 X="0.8312" Y="0.9692"/>
+        <InstrPkt4 X="0.8312" Y="0.8741"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Indusi Wachsam" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.8245" Y="0.8683"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8086" Vol="0.7939" Uur="0.9165" Vur="0.9414">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Lautsprecher"/>
+        <InstrPkt2 X="0.8245" Y="0.9716"/>
+        <InstrPkt3 X="0.8812" Y="0.9716"/>
+        <InstrPkt4 X="0.8812" Y="0.8683"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Scheibenwischer" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.8676" Y="0.884"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0039" Vol="0.0039" Uur="0.4043" Vur="0.4629">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Indusi Wachsam"/>
+        <InstrPkt2 X="0.8676" Y="0.9644"/>
+        <InstrPkt3 X="0.9202" Y="0.9644"/>
+        <InstrPkt4 X="0.9202" Y="0.884"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Klickschutz links" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2309" Y="0.8252"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2309" Y="0.87"/>
+        <InstrPkt3 X="0.3387" Y="0.87"/>
+        <InstrPkt4 X="0.3387" Y="0.8252"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" MaxWert="0.5" InstrName="LM Tuer 1 offen" PhysikGroesse="55" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5335" Y="0.7437"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7695" Vol="0.2305" Uur="0.9336" Vur="0.3672">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5335" Y="0.7677"/>
+        <InstrPkt3 X="0.555" Y="0.7677"/>
+        <InstrPkt4 X="0.555" Y="0.7437"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 2 offen" PhysikGroesse="56" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5353" Y="0.7769"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7832" Vol="0.4199" Uur="0.9531" Vur="0.5664">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5353" Y="0.8026"/>
+        <InstrPkt3 X="0.5576" Y="0.8026"/>
+        <InstrPkt4 X="0.5576" Y="0.7769"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 3 offen" PhysikGroesse="57" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5373" Y="0.8122"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7988" Vol="0.6211" Uur="0.9746" Vur="0.7773">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5373" Y="0.8395"/>
+        <InstrPkt3 X="0.5604" Y="0.8395"/>
+        <InstrPkt4 X="0.5604" Y="0.8122"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 4 offen" PhysikGroesse="58" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5396" Y="0.8495"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8164" Vol="0.834" Uur="0.998" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5396" Y="0.8782"/>
+        <InstrPkt3 X="0.5635" Y="0.8782"/>
+        <InstrPkt4 X="0.5635" Y="0.8495"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links" PhysikGroesse="64" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6839" Y="0.923"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0039" Vol="0.8516" Uur="0.209" Vur="0.9883">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6839" Y="0.947"/>
+        <InstrPkt3 X="0.7108" Y="0.947"/>
+        <InstrPkt4 X="0.7108" Y="0.923"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl rechts" PhysikGroesse="65" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.7241" Y="0.924"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.5098" Vol="0.8574" Uur="0.7148" Vur="1">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7241" Y="0.949"/>
+        <InstrPkt3 X="0.7511" Y="0.949"/>
+        <InstrPkt4 X="0.7511" Y="0.924"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links+rechts" PhysikGroesse="66" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6944" Y="0.8926"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.084" Vol="0.5352" Uur="0.2813" Vur="0.6543">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6944" Y="0.9134"/>
+        <InstrPkt3 X="0.7203" Y="0.9134"/>
+        <InstrPkt4 X="0.7203" Y="0.8926"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links Klickflaeche" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6839" Y="0.923"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6839" Y="0.947"/>
+        <InstrPkt3 X="0.7108" Y="0.947"/>
+        <InstrPkt4 X="0.7108" Y="0.923"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl rechts Klickflaeche" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.7241" Y="0.924"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7241" Y="0.949"/>
+        <InstrPkt3 X="0.7511" Y="0.949"/>
+        <InstrPkt4 X="0.7511" Y="0.924"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links+rechts Klickflaeche" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6944" Y="0.8926"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6944" Y="0.9134"/>
+        <InstrPkt3 X="0.7203" Y="0.9134"/>
+        <InstrPkt4 X="0.7203" Y="0.8926"/>
+        <Font/>
+      </Melder>
+    </Grafik>
+    <Grafik>
+      <RenderFlags TexVoreinstellung="2"/>
+      <Grunddaten GrafikName="Standardansicht 16:9" FtdQualitaet="1">
+        <p X="-1.62" Y="-0.15" Z="2.6"/>
+        <lookat X="10" Y="-0.45" Z="2.5"/>
+        <up X="-1.5339" Y="-0.15" Z="12.5996"/>
+      </Grunddaten>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fake-HG" PhysikGroesse="40" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1/>
+        <FstTextur>
+          <EinzelTextur Vol="-0.0157" Uur="1.9028" Vur="1.0547">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="3D-Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1/>
+        <Ueberdeckend InstrName="HG links"/>
+        <Ueberdeckend InstrName="HG Mikrofon"/>
+        <Ueberdeckend InstrName="HG rechts"/>
+        <Ueberdeckend InstrName="HG Scheibenwischer"/>
+        <InstrPkt2 Y="0.8481"/>
+        <InstrPkt3 X="1" Y="0.8481"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG links" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 Y="0.6583"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.001" Uur="0.998" Vur="0.3667">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Batteriehauptschalter"/>
+        <Ueberdeckend InstrName="Batteriespannung-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Beleuchtung"/>
+        <Ueberdeckend InstrName="Blinker links"/>
+        <Ueberdeckend InstrName="Blinker rechts"/>
+        <Ueberdeckend InstrName="Federspeicher"/>
+        <Ueberdeckend InstrName="Heizung/Lueftung"/>
+        <Ueberdeckend InstrName="Indusi Befehl"/>
+        <Ueberdeckend InstrName="Indusi frei"/>
+        <Ueberdeckend InstrName="Infotext-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Klimageraet"/>
+        <Ueberdeckend InstrName="Linienschuetz"/>
+        <Ueberdeckend InstrName="LM Federsp. notgeloest"/>
+        <Ueberdeckend InstrName="LM Fernlicht"/>
+        <Ueberdeckend InstrName="LM Heizung/Lueftung"/>
+        <Ueberdeckend InstrName="LM Klimageraet"/>
+        <Ueberdeckend InstrName="LM Linienschuetz"/>
+        <Ueberdeckend InstrName="LM PZB 1000 Hz"/>
+        <Ueberdeckend InstrName="LM PZB 500 Hz"/>
+        <Ueberdeckend InstrName="LM PZB Befehl"/>
+        <Ueberdeckend InstrName="LM PZB-Zugart M"/>
+        <Ueberdeckend InstrName="LM PZB-Zugart O"/>
+        <Ueberdeckend InstrName="LM Sammelstoerung"/>
+        <Ueberdeckend InstrName="LM Stromabnehmer"/>
+        <Ueberdeckend InstrName="LM Zwangsbremse"/>
+        <Ueberdeckend InstrName="Mg-Bremse pruefen"/>
+        <Ueberdeckend InstrName="Stromabnehmer"/>
+        <Ueberdeckend InstrName="Tacho-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Weiche geradeaus"/>
+        <Ueberdeckend InstrName="Weiche links"/>
+        <Ueberdeckend InstrName="Weiche rechts"/>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="0.5245" Y="1"/>
+        <InstrPkt4 X="0.5245" Y="0.6583"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG rechts" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.5245" Y="0.6583"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.001" Vol="0.3979" Uur="0.9058" Vur="0.7637">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Bremsdruck-Nachtbeleuchtung"/>
+        <Ueberdeckend InstrName="Indusi Wachsam"/>
+        <Ueberdeckend InstrName="LM Gruenschleife"/>
+        <Ueberdeckend InstrName="LM Haltewunsch"/>
+        <Ueberdeckend InstrName="LM Hochbahnsteig"/>
+        <Ueberdeckend InstrName="LM Kinderwagen"/>
+        <Ueberdeckend InstrName="LM Tuer 1 offen"/>
+        <Ueberdeckend InstrName="LM Tuer 2 offen"/>
+        <Ueberdeckend InstrName="LM Tuer 3 offen"/>
+        <Ueberdeckend InstrName="LM Tuer 4 offen"/>
+        <Ueberdeckend InstrName="Nachtbeleuchtung Oberspannung 15kV"/>
+        <Ueberdeckend InstrName="Nachtbeleuchtung Oberspannung 750V"/>
+        <Ueberdeckend InstrName="Notbremse"/>
+        <Ueberdeckend InstrName="Scheibenwischer"/>
+        <Ueberdeckend InstrName="LM Tuerseitenvorwahl links"/>
+        <Ueberdeckend InstrName="LM Tuerseitenvorwahl rechts"/>
+        <Ueberdeckend InstrName="LM Tuerseitenvorwahl links+rechts"/>
+        <Ueberdeckend InstrName="Steilstrecke"/>
+        <Ueberdeckend InstrName="Tueren 1"/>
+        <Ueberdeckend InstrName="Tueren 2"/>
+        <Ueberdeckend InstrName="Uhr-Nachtbeleuchtung"/>
+        <InstrPkt2 X="0.5245" Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1" Y="0.6583"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG Scheibenwischer" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.902" Y="0.4749"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.8018" Uur="0.1865" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.902" Y="0.6583"/>
+        <InstrPkt3 X="1" Y="0.6583"/>
+        <InstrPkt4 X="1" Y="0.4749"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="HG Mikrofon" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 Y="0.4234"/>
+        <FstTextur>
+          <EinzelTextur Uur="0.7217" Vur="0.5029">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 Y="0.6583"/>
+        <InstrPkt3 X="0.1896" Y="0.6583"/>
+        <InstrPkt4 X="0.1896" Y="0.4234"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Uhr-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7321" Y="0.708"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.396" Vol="0.4512" Uur="0.5195" Vur="0.4907">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.4082" Vol="0.0039" Uur="0.9023" Vur="0.1621">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Uhr"/>
+        <InstrPkt2 X="0.7321" Y="0.745"/>
+        <InstrPkt3 X="0.797" Y="0.745"/>
+        <InstrPkt4 X="0.797" Y="0.708"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Uhr" PhysikGroesse="35" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7357" Y="0.7185"/>
+        <Ueberdeckend InstrName="Uhr-Sekundenabdeckung"/>
+        <InstrPkt2 X="0.7357" Y="0.7436"/>
+        <InstrPkt3 X="0.8237" Y="0.7436"/>
+        <InstrPkt4 X="0.8237" Y="0.7185"/>
+        <Font Dateiname="Rollingstock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\schrift.font.xml"/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Uhr-Sekundenabdeckung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7857" Y="0.7176"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.2051" Vol="0.5898" Uur="0.4043" Vur="0.7051">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7857" Y="0.7445"/>
+        <InstrPkt3 X="0.8119" Y="0.7445"/>
+        <InstrPkt4 X="0.8119" Y="0.7176"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Infotext="1" Farbe="FFFFFFFF" InstrName="Infotext-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.0352" Y="0.8531"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0669" Vol="0.2095" Uur="0.1055" Vur="0.228">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.8418" Vol="0.4023" Uur="0.9961" Vur="0.4766">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Infotext Fahrstufe"/>
+        <Ueberdeckend InstrName="Infotext Rischa"/>
+        <InstrPkt2 X="0.0352" Y="0.8704"/>
+        <InstrPkt3 X="0.0554" Y="0.8704"/>
+        <InstrPkt4 X="0.0554" Y="0.8531"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="21" Vorkomma="2" Infotext="1" Farbe="00FFFFFF" InstrName="Infotext Fahrstufe" Faktor="1" DunkelFarbe="00FFFFFF">
+        <InstrPkt1 X="0.0357" Y="0.8545"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.397" Uur="0.9316" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.397" Uur="0.9575" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.397" Uur="0.9834" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4136" Uur="0.9316" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4136" Uur="0.9575" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4136" Uur="0.9834" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4302" Uur="0.9316" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4302" Uur="0.9575" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4302" Uur="0.9834" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4468" Uur="0.9316" Vur="0.4624">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4468" Uur="0.9575" Vur="0.4624">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4468" Uur="0.9834" Vur="0.4624">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4634" Uur="0.9316" Vur="0.479">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4634" Uur="0.9575" Vur="0.479">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4634" Uur="0.9834" Vur="0.479">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.48" Uur="0.9316" Vur="0.4956">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.48" Uur="0.9575" Vur="0.4956">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.48" Uur="0.9834" Vur="0.4956">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.4966" Uur="0.9316" Vur="0.5122">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.4966" Uur="0.9575" Vur="0.5122">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.4966" Uur="0.9834" Vur="0.5122">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.5132" Uur="0.9316" Vur="0.5288">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.0357" Y="0.8691"/>
+        <InstrPkt3 X="0.0488" Y="0.8691"/>
+        <InstrPkt4 X="0.0488" Y="0.8545"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Infotext="1" Farbe="FFFFFFFF" InstrName="Infotext Rischa" Faktor="1" DunkelFarbe="00FFFFFF">
+        <InstrPkt1 X="0.0513" Y="0.8545"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.397" Uur="0.9907" Vur="0.4126">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.4136" Uur="0.9907" Vur="0.4292">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.4302" Uur="0.9907" Vur="0.4458">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.0513" Y="0.8691"/>
+        <InstrPkt3 X="0.0547" Y="0.8691"/>
+        <InstrPkt4 X="0.0547" Y="0.8545"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="3" InstrName="Tachozeiger" PhysikGroesse="139" Faktor="3.6" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.4568" Y="0.7569"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.4468" Uur="0.9951" Vur="0.6567">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="DEUTA Tacho"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0361" ZeigerBreite="0.0028" ZeigerWinkel="1.1242"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0361" ZeigerBreite="0.0028" ZeigerWinkel="1.2603" ZeigerWert="5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0367" ZeigerBreite="0.0028" ZeigerWinkel="1.4102" ZeigerWert="10"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0362" ZeigerBreite="0.0028" ZeigerWinkel="1.564" ZeigerWert="15"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0357" ZeigerBreite="0.0028" ZeigerWinkel="1.6986" ZeigerWert="20"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0353" ZeigerBreite="0.0028" ZeigerWinkel="1.8556" ZeigerWert="25"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0344" ZeigerBreite="0.0028" ZeigerWinkel="2.0036" ZeigerWert="30"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.033" ZeigerBreite="0.0028" ZeigerWinkel="2.1735" ZeigerWert="35"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0319" ZeigerBreite="0.0028" ZeigerWinkel="2.3419" ZeigerWert="40"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0306" ZeigerBreite="0.0028" ZeigerWinkel="2.5351" ZeigerWert="45"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.03" ZeigerBreite="0.0028" ZeigerWinkel="2.7257" ZeigerWert="50"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0293" ZeigerBreite="0.0028" ZeigerWinkel="2.9472" ZeigerWert="55"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.029" ZeigerBreite="0.0028" ZeigerWinkel="3.1561" ZeigerWert="60"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.029" ZeigerBreite="0.0028" ZeigerWinkel="3.376" ZeigerWert="65"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.03" ZeigerBreite="0.0028" ZeigerWinkel="3.5711" ZeigerWert="70"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0306" ZeigerBreite="0.0028" ZeigerWinkel="3.7783" ZeigerWert="75"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0316" ZeigerBreite="0.0028" ZeigerWinkel="3.9609" ZeigerWert="80"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0331" ZeigerBreite="0.0028" ZeigerWinkel="4.1427" ZeigerWert="85"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0341" ZeigerBreite="0.0028" ZeigerWinkel="4.3049" ZeigerWert="90"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0352" ZeigerBreite="0.0028" ZeigerWinkel="4.4703" ZeigerWert="95"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0358" ZeigerBreite="0.0028" ZeigerWinkel="4.6211" ZeigerWert="100"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0362" ZeigerBreite="0.0028" ZeigerWinkel="4.7688" ZeigerWert="105"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0361" ZeigerBreite="0.0028" ZeigerWinkel="4.9054" ZeigerWert="110"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.036" ZeigerBreite="0.0028" ZeigerWinkel="5.052" ZeigerWert="115"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0354" ZeigerBreite="0.0028" ZeigerWinkel="5.1906" ZeigerWert="120"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="DEUTA Tacho" Faktor="1" DunkelFarbe="004B4B4B">
+        <InstrPkt1 X="0.446" Y="0.7368"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.729" Vol="0.915" Uur="0.7686" Vur="0.9478">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.446" Y="0.7673"/>
+        <InstrPkt3 X="0.4668" Y="0.7673"/>
+        <InstrPkt4 X="0.4668" Y="0.7368"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Tacho-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.418" Y="0.6934"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7954" Vol="0.0386" Uur="0.9424" Vur="0.1675">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.4082" Vol="0.4805" Uur="0.9961" Vur="0.9961">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Tachozeiger"/>
+        <InstrPkt2 X="0.418" Y="0.8139"/>
+        <InstrPkt3 X="0.4953" Y="0.8139"/>
+        <InstrPkt4 X="0.4953" Y="0.6934"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="100" InstrName="Batteriespannungszeiger" PhysikGroesse="140" Faktor="27.5" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.3023" Y="0.7322"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9844" Vol="0.5337" Uur="0.9951" Vur="0.7437">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="DEUTA Batteriespannung"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0208" ZeigerBreite="0.0031" ZeigerWinkel="4.279" ZeigerWert="27.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0216" ZeigerBreite="0.0031" ZeigerWinkel="4.7124" ZeigerWert="22.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0193" ZeigerBreite="0.0031" ZeigerWinkel="5.2117" ZeigerWert="17.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0173" ZeigerBreite="0.0031" ZeigerWinkel="5.8064" ZeigerWert="12.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.018" ZeigerBreite="0.0031" ZeigerWinkel="6.4554" ZeigerWert="7.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0205" ZeigerBreite="0.0031" ZeigerWinkel="7.0244" ZeigerWert="2.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0224" ZeigerBreite="0.0031" ZeigerWinkel="7.4777" ZeigerWert="-2.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0213" ZeigerBreite="0.0031" ZeigerWinkel="7.9022" ZeigerWert="-7.5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0196" ZeigerBreite="0.0031" ZeigerWinkel="8.3294" ZeigerWert="-12.5"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="DEUTA Batteriespannung" Faktor="1" DunkelFarbe="004B4B4B">
+        <InstrPkt1 X="0.2928" Y="0.714"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.9692" Uur="0.9429" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2928" Y="0.7418"/>
+        <InstrPkt3 X="0.3118" Y="0.7418"/>
+        <InstrPkt4 X="0.3118" Y="0.714"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Batteriespannung-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2794" Y="0.6934"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5317" Vol="0.0386" Uur="0.6196" Vur="0.1104">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.0566" Vol="0.709" Uur="0.4082" Vur="0.9961">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Batteriespannungszeiger"/>
+        <InstrPkt2 X="0.2794" Y="0.7605"/>
+        <InstrPkt3 X="0.3256" Y="0.7605"/>
+        <InstrPkt4 X="0.3256" Y="0.6934"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="3" InstrName="Zeiger Druck HLL" PhysikGroesse="2" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.61" Y="0.7359"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9585" Vol="0.5132" Uur="0.9829" Vur="0.6475">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="0.7355"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0153" ZeigerBreite="0.0062" ZeigerWinkel="1.0996" ZeigerWert="1"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.016" ZeigerBreite="0.0062" ZeigerWinkel="1.4743" ZeigerWert="2"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0164" ZeigerBreite="0.0062" ZeigerWinkel="1.8082" ZeigerWert="3"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="2.1363" ZeigerWert="4"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="2.5192" ZeigerWert="5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0133" ZeigerBreite="0.0062" ZeigerWinkel="2.948" ZeigerWert="6"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.013" ZeigerBreite="0.0062" ZeigerWinkel="3.4633" ZeigerWert="7"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0142" ZeigerBreite="0.0062" ZeigerWinkel="3.9526" ZeigerWert="8"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="4.3651" ZeigerWert="9"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="4.7124" ZeigerWert="10"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0178" ZeigerBreite="0.0062" ZeigerWinkel="5.0204" ZeigerWert="11"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="5.3412" ZeigerWert="12"/>
+      </Zeigerinstrument>
+      <Zeigerinstrument Traegheit="3" InstrName="Zeiger Druck HBL" PhysikGroesse="4" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.61" Y="0.7368"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.9326" Vol="0.5132" Uur="0.957" Vur="0.6475">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Druck HLL"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="0.7355"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0153" ZeigerBreite="0.0062" ZeigerWinkel="1.0996" ZeigerWert="1"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.016" ZeigerBreite="0.0062" ZeigerWinkel="1.4743" ZeigerWert="2"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0164" ZeigerBreite="0.0062" ZeigerWinkel="1.8082" ZeigerWert="3"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="2.1363" ZeigerWert="4"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0145" ZeigerBreite="0.0062" ZeigerWinkel="2.5192" ZeigerWert="5"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0133" ZeigerBreite="0.0062" ZeigerWinkel="2.948" ZeigerWert="6"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.013" ZeigerBreite="0.0062" ZeigerWinkel="3.4633" ZeigerWert="7"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0142" ZeigerBreite="0.0062" ZeigerWinkel="3.9526" ZeigerWert="8"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0158" ZeigerBreite="0.0062" ZeigerWinkel="4.3651" ZeigerWert="9"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="4.7124" ZeigerWert="10"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0178" ZeigerBreite="0.0062" ZeigerWinkel="5.0204" ZeigerWert="11"/>
+        <ZeigerStuetzpunkt ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0174" ZeigerBreite="0.0062" ZeigerWinkel="5.3412" ZeigerWert="12"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Bremsdruck-Nachtbeleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.5876" Y="0.6966"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.1211" Vol="0.439" Uur="0.2104" Vur="0.5078">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.5625" Vol="0.7842" Uur="0.7412" Vur="0.9219">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Druck HBL"/>
+        <InstrPkt2 X="0.5876" Y="0.761"/>
+        <InstrPkt3 X="0.6346" Y="0.761"/>
+        <InstrPkt4 X="0.6346" Y="0.6966"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="0.2" InstrName="Zeiger Oberspannung 750V" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6579" Y="0.7217"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.9346" Uur="0.2266" Vur="0.9438">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <ZeigerStuetzpunkt ZeigerX="0.018" ZeigerY="0.0506" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2605"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0177" ZeigerY="0.0452" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2469" ZeigerWert="100"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0169" ZeigerY="0.0393" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2333" ZeigerWert="200"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0164" ZeigerY="0.0339" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2295" ZeigerWert="300"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0154" ZeigerY="0.0284" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2258" ZeigerWert="400"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0144" ZeigerY="0.0233" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2251" ZeigerWert="500"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0133" ZeigerY="0.0188" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2244" ZeigerWert="600"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0121" ZeigerY="0.0144" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2031" ZeigerWert="700"/>
+        <ZeigerStuetzpunkt ZeigerX="0.011" ZeigerY="0.0106" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1818" ZeigerWert="800"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0095" ZeigerY="0.0072" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1683" ZeigerWert="900"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0082" ZeigerY="0.0041" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1549" ZeigerWert="1000"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Nachtbeleuchtung Oberspannung 750V" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.6538" Y="0.6989"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.2471" Vol="0.4414" Uur="0.3047" Vur="0.5732">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.8828" Vol="0.6563" Uur="0.998" Vur="0.9199">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Oberspannung 750V"/>
+        <InstrPkt2 X="0.6538" Y="0.8221"/>
+        <InstrPkt3 X="0.6841" Y="0.8221"/>
+        <InstrPkt4 X="0.6841" Y="0.6989"/>
+        <Font/>
+      </Melder>
+      <Zeigerinstrument Traegheit="0.2" InstrName="Zeiger Oberspannung 15kV" PhysikGroesse="14" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6934" Y="0.7217"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.9346" Uur="0.2266" Vur="0.9438">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <ZeigerStuetzpunkt ZeigerX="0.018" ZeigerY="0.0506" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2605"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0177" ZeigerY="0.0452" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2469" ZeigerWert="2000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0169" ZeigerY="0.0393" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2333" ZeigerWert="4000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0164" ZeigerY="0.0339" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2295" ZeigerWert="6000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0154" ZeigerY="0.0284" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2258" ZeigerWert="8000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0144" ZeigerY="0.0233" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2251" ZeigerWert="10000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0133" ZeigerY="0.0188" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2244" ZeigerWert="11999.999"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0121" ZeigerY="0.0144" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.2031" ZeigerWert="14000.001"/>
+        <ZeigerStuetzpunkt ZeigerX="0.011" ZeigerY="0.0106" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1818" ZeigerWert="16000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0095" ZeigerY="0.0072" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1683" ZeigerWert="18000"/>
+        <ZeigerStuetzpunkt ZeigerX="0.0082" ZeigerY="0.0041" ZeigerFarbe="FFFFFFFF" ZeigerLaenge="0.0026" ZeigerBreite="0.0103" ZeigerWinkel="6.1549" ZeigerWert="20000"/>
+      </Zeigerinstrument>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Nachtbeleuchtung Oberspannung 15kV" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.689" Y="0.6994"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.314" Vol="0.4419" Uur="0.375" Vur="0.5732">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+          <EinzelTextur Uol="0.7588" Vol="0.6563" Uur="0.8809" Vur="0.9189">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Zeiger Oberspannung 15kV"/>
+        <InstrPkt2 X="0.689" Y="0.8221"/>
+        <InstrPkt3 X="0.7211" Y="0.8221"/>
+        <InstrPkt4 X="0.7211" Y="0.6994"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Federspeicher" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1227" Y="0.7121"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4023" Vol="0.9521" Uur="0.4751" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1227" Y="0.7559"/>
+        <InstrPkt3 X="0.1609" Y="0.7559"/>
+        <InstrPkt4 X="0.1609" Y="0.7121"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Sammelstoerung" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1237" Y="0.8029"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.585" Vol="0.9604" Uur="0.6284" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1237" Y="0.839"/>
+        <InstrPkt3 X="0.1465" Y="0.839"/>
+        <InstrPkt4 X="0.1465" Y="0.8029"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB-Zugart O" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1917" Y="0.6861"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.6484" Uur="0.9443" Vur="0.6719">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1917" Y="0.708"/>
+        <InstrPkt3 X="0.2114" Y="0.708"/>
+        <InstrPkt4 X="0.2114" Y="0.6861"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB-Zugart M" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2135" Y="0.6861"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9458" Vol="0.6484" Uur="0.9829" Vur="0.6714">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2135" Y="0.7076"/>
+        <InstrPkt3 X="0.233" Y="0.7076"/>
+        <InstrPkt4 X="0.233" Y="0.6861"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB 1000 Hz" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1871" Y="0.708"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.6729" Uur="0.9492" Vur="0.6992">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1871" Y="0.7327"/>
+        <InstrPkt3 X="0.2094" Y="0.7327"/>
+        <InstrPkt4 X="0.2094" Y="0.708"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB 500 Hz" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2094" Y="0.7089"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.7002" Uur="0.9458" Vur="0.7241">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2094" Y="0.7313"/>
+        <InstrPkt3 X="0.2299" Y="0.7313"/>
+        <InstrPkt4 X="0.2299" Y="0.7089"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM PZB Befehl" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.1845" Y="0.7327"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.7251" Uur="0.9473" Vur="0.749">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1845" Y="0.755"/>
+        <InstrPkt3 X="0.2058" Y="0.755"/>
+        <InstrPkt4 X="0.2058" Y="0.7327"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Indusi Befehl" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1799" Y="0.755"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9561" Vol="0.7607" Uur="0.9834" Vur="0.7158">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1799" Y="0.7806"/>
+        <InstrPkt3 X="0.2035" Y="0.7806"/>
+        <InstrPkt4 X="0.2035" Y="0.755"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Indusi frei" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2022" Y="0.7578"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9575" Vol="0.7148" Uur="0.9834" Vur="0.6729">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2022" Y="0.7819"/>
+        <InstrPkt3 X="0.2243" Y="0.7819"/>
+        <InstrPkt4 X="0.2243" Y="0.7578"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Federsp. notgeloest" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2374" Y="0.7094"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9067" Vol="0.75" Uur="0.9453" Vur="0.7729">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2374" Y="0.7308"/>
+        <InstrPkt3 X="0.2576" Y="0.7308"/>
+        <InstrPkt4 X="0.2576" Y="0.7094"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Zwangsbremse" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.2317" Y="0.7327"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.5386" Vol="0.9482" Uur="0.584" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2317" Y="0.7801"/>
+        <InstrPkt3 X="0.2556" Y="0.7801"/>
+        <InstrPkt4 X="0.2556" Y="0.7327"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Linienschuetz" PhysikGroesse="20" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.1586" Y="0.8016"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.6294" Vol="0.9487" Uur="0.6851" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1586" Y="0.8485"/>
+        <InstrPkt3 X="0.1878" Y="0.8485"/>
+        <InstrPkt4 X="0.1878" Y="0.8016"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Stromabnehmer" PhysikGroesse="85" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.1958" Y="0.8006"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.686" Vol="0.9482" Uur="0.7412" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1958" Y="0.8481"/>
+        <InstrPkt3 X="0.2248" Y="0.8481"/>
+        <InstrPkt4 X="0.2248" Y="0.8006"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" MaxWert="1" InstrName="LM Heizung/Lueftung" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.2335" Y="0.8011"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7422" Vol="0.9487" Uur="0.7964" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7422" Vol="0.9487" Uur="0.7964" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Klickschutz links"/>
+        <InstrPkt2 X="0.2335" Y="0.8481"/>
+        <InstrPkt3 X="0.262" Y="0.8481"/>
+        <InstrPkt4 X="0.262" Y="0.8011"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Klimageraet" Faktor="1" DunkelFarbe="FF808080">
+        <InstrPkt1 X="0.2707" Y="0.8006"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7974" Vol="0.9478" Uur="0.8516" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7974" Vol="0.9478" Uur="0.8516" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Klickschutz links"/>
+        <InstrPkt2 X="0.2707" Y="0.8485"/>
+        <InstrPkt3 X="0.2992" Y="0.8485"/>
+        <InstrPkt4 X="0.2992" Y="0.8006"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="3" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Fernlicht" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.3082" Y="0.8006"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8525" Vol="0.9473" Uur="0.9058" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8525" Vol="0.9473" Uur="0.9058" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Klickschutz links"/>
+        <InstrPkt2 X="0.3082" Y="0.849"/>
+        <InstrPkt3 X="0.3362" Y="0.849"/>
+        <InstrPkt4 X="0.3362" Y="0.8006"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Mg-Bremse pruefen" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.3564" Y="0.7308"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.958" Vol="0.771" Uur="0.999" Vur="0.8066">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.3564" Y="0.7641"/>
+        <InstrPkt3 X="0.378" Y="0.7641"/>
+        <InstrPkt4 X="0.378" Y="0.7308"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Hochbahnsteig" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5463" Y="0.9266"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.9438" Vol="0.9639" Uur="0.9927" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5463" Y="0.9594"/>
+        <InstrPkt3 X="0.572" Y="0.9594"/>
+        <InstrPkt4 X="0.572" Y="0.9266"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Weiche links" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.4077" Y="0.8276"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.292" Vol="0.917" Uur="0.3789" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4077" Y="0.8654"/>
+        <InstrPkt3 X="0.4306" Y="0.8654"/>
+        <InstrPkt4 X="0.4306" Y="0.8276"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Weiche geradeaus" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.4455" Y="0.828"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3809" Vol="0.9199" Uur="0.4688" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4455" Y="0.8645"/>
+        <InstrPkt3 X="0.4686" Y="0.8645"/>
+        <InstrPkt4 X="0.4686" Y="0.828"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Weiche rechts" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.4829" Y="0.8276"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4717" Vol="0.9189" Uur="0.5605" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4829" Y="0.8645"/>
+        <InstrPkt3 X="0.5063" Y="0.8645"/>
+        <InstrPkt4 X="0.5063" Y="0.8276"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Blinker links" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.4154" Y="0.8942"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.6592" Vol="0.9248" Uur="0.7539" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4154" Y="0.9284"/>
+        <InstrPkt3 X="0.4403" Y="0.9284"/>
+        <InstrPkt4 X="0.4403" Y="0.8942"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Blinker rechts" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.4747" Y="0.8951"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8535" Vol="0.9277" Uur="0.9492" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.4747" Y="0.9279"/>
+        <InstrPkt3 X="0.4999" Y="0.9279"/>
+        <InstrPkt4 X="0.4999" Y="0.8951"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Gruenschleife" PhysikGroesse="59" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5887" Y="0.7842"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.2417" Vol="0.936" Uur="0.2959" Vur="0.9985">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5887" Y="0.8426"/>
+        <InstrPkt3 X="0.6171" Y="0.8426"/>
+        <InstrPkt4 X="0.6171" Y="0.7842"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Kinderwagen" PhysikGroesse="60" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6241" Y="0.8002"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.9482" Uur="0.2407" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6241" Y="0.8476"/>
+        <InstrPkt3 X="0.652" Y="0.8476"/>
+        <InstrPkt4 X="0.652" Y="0.8002"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Haltewunsch" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.7395" Y="0.7833"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.2969" Vol="0.9336" Uur="0.353" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7395" Y="0.8444"/>
+        <InstrPkt3 X="0.7691" Y="0.8444"/>
+        <InstrPkt4 X="0.7691" Y="0.7833"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Steilstrecke" Faktor="1" DunkelFarbe="00C8C8C8">
+        <InstrPkt1 X="0.8147" Y="0.7979"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.354" Vol="0.957" Uur="0.4014" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.8147" Y="0.8371"/>
+        <InstrPkt3 X="0.8396" Y="0.8371"/>
+        <InstrPkt4 X="0.8396" Y="0.7979"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Notbremse" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.8401" Y="0.7131"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4761" Vol="0.9502" Uur="0.5376" Vur="0.999">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.8401" Y="0.7587"/>
+        <InstrPkt3 X="0.8725" Y="0.7587"/>
+        <InstrPkt4 X="0.8725" Y="0.7131"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Batteriehauptschalter" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.0939" Y="0.8609"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.5068" Uur="0.1914" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.1934" Vol="0.5068" Uur="0.3848" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.0939" Y="0.9895"/>
+        <InstrPkt3 X="0.1442" Y="0.9895"/>
+        <InstrPkt4 X="0.1442" Y="0.8609"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Linienschuetz" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1355" Y="0.8609"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5557" Vol="0.5068" Uur="0.7227" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3867" Vol="0.5068" Uur="0.5537" Vur="0.7822">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1355" Y="0.9895"/>
+        <InstrPkt3 X="0.1794" Y="0.9895"/>
+        <InstrPkt4 X="0.1794" Y="0.8609"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Stromabnehmer" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.1763" Y="0.8609"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.6543" Uur="1" Vur="0.4941">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.1621" Uur="1" Vur="0.002">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.1763" Y="0.9895"/>
+        <InstrPkt3 X="0.2184" Y="0.9895"/>
+        <InstrPkt4 X="0.2184" Y="0.8609"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Heizung/Lueftung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2184" Y="0.8609"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.4922" Uur="1" Vur="0.3291">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7246" Vol="0.3271" Uur="1" Vur="0.1641">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2184" Y="0.9895"/>
+        <InstrPkt3 X="0.2612" Y="0.9895"/>
+        <InstrPkt4 X="0.2612" Y="0.8609"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Klimageraet" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2612" Y="0.8659"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.9121" Uur="0.2646" Vur="0.7842">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.2666" Vol="0.9121" Uur="0.5313" Vur="0.7842">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-2.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2612" Y="0.9895"/>
+        <InstrPkt3 X="0.2948" Y="0.9895"/>
+        <InstrPkt4 X="0.2948" Y="0.8659"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="3" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Beleuchtung" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2948" Y="0.859"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.269" Vol="0.7939" Uur="0.3496" Vur="0.9336">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.1875" Vol="0.7939" Uur="0.2681" Vur="0.9336">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3506" Vol="0.7939" Uur="0.4312" Vur="0.9336">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2948" Y="0.9895"/>
+        <InstrPkt3 X="0.3372" Y="0.9895"/>
+        <InstrPkt4 X="0.3372" Y="0.859"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Tueren 1" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.5876" Y="0.859"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5078" Vol="0.7939" Uur="0.5825" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.4321" Vol="0.7939" Uur="0.5068" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5876" Y="0.9863"/>
+        <InstrPkt3 X="0.6269" Y="0.9863"/>
+        <InstrPkt4 X="0.6269" Y="0.859"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Tueren 2" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.6297" Y="0.859"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.5835" Vol="0.7939" Uur="0.6553" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.6563" Vol="0.7939" Uur="0.728" Vur="0.9302">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6297" Y="0.9863"/>
+        <InstrPkt3 X="0.6674" Y="0.9863"/>
+        <InstrPkt4 X="0.6674" Y="0.859"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Ansage" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.749" Y="0.8732"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.729" Vol="0.7939" Uur="0.8076" Vur="0.9141">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.749" Y="0.9854"/>
+        <InstrPkt3 X="0.7904" Y="0.9854"/>
+        <InstrPkt4 X="0.7904" Y="0.8732"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="2" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Lautsprecher" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.7832" Y="0.8595"/>
+        <FstTextur>
+          <EinzelTextur Vol="0.0039" Uur="0.3652" Vur="0.5469">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.3691" Vol="0.3691" Uur="0.9121" Vur="0.0039">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-3.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Ansage"/>
+        <InstrPkt2 X="0.7832" Y="0.9863"/>
+        <InstrPkt3 X="0.8312" Y="0.9863"/>
+        <InstrPkt4 X="0.8312" Y="0.8595"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Indusi Wachsam" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.8245" Y="0.8517"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8086" Vol="0.7939" Uur="0.9165" Vur="0.9414">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Lautsprecher"/>
+        <InstrPkt2 X="0.8245" Y="0.9895"/>
+        <InstrPkt3 X="0.8812" Y="0.9895"/>
+        <InstrPkt4 X="0.8812" Y="0.8517"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Scheibenwischer" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.8676" Y="0.8727"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0039" Vol="0.0039" Uur="0.4043" Vur="0.4629">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <Ueberdeckend InstrName="Indusi Wachsam"/>
+        <InstrPkt2 X="0.8676" Y="0.9799"/>
+        <InstrPkt3 X="0.9202" Y="0.9799"/>
+        <InstrPkt4 X="0.9202" Y="0.8727"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="Klickschutz links" Faktor="1" DunkelFarbe="00191919">
+        <InstrPkt1 X="0.2309" Y="0.7943"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.2309" Y="0.854"/>
+        <InstrPkt3 X="0.3387" Y="0.854"/>
+        <InstrPkt4 X="0.3387" Y="0.7943"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 1 offen" PhysikGroesse="55" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5335" Y="0.6857"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7695" Vol="0.2305" Uur="0.9336" Vur="0.3672">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5335" Y="0.7176"/>
+        <InstrPkt3 X="0.555" Y="0.7176"/>
+        <InstrPkt4 X="0.555" Y="0.6857"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 2 offen" PhysikGroesse="56" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5353" Y="0.7299"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7832" Vol="0.4199" Uur="0.9531" Vur="0.5664">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5353" Y="0.7641"/>
+        <InstrPkt3 X="0.5576" Y="0.7641"/>
+        <InstrPkt4 X="0.5576" Y="0.7299"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 3 offen" PhysikGroesse="57" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5373" Y="0.7769"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.7988" Vol="0.6211" Uur="0.9746" Vur="0.7773">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5373" Y="0.8134"/>
+        <InstrPkt3 X="0.5604" Y="0.8134"/>
+        <InstrPkt4 X="0.5604" Y="0.7769"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuer 4 offen" PhysikGroesse="58" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.5396" Y="0.8266"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.8164" Vol="0.834" Uur="0.998" Vur="0.998">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.5396" Y="0.865"/>
+        <InstrPkt3 X="0.5635" Y="0.865"/>
+        <InstrPkt4 X="0.5635" Y="0.8266"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links" PhysikGroesse="64" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6839" Y="0.9247"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.0039" Vol="0.8516" Uur="0.209" Vur="0.9883">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6839" Y="0.9567"/>
+        <InstrPkt3 X="0.7108" Y="0.9567"/>
+        <InstrPkt4 X="0.7108" Y="0.9247"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl rechts" PhysikGroesse="65" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.7241" Y="0.9261"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.5098" Vol="0.8574" Uur="0.7148" Vur="1">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7241" Y="0.9594"/>
+        <InstrPkt3 X="0.7511" Y="0.9594"/>
+        <InstrPkt4 X="0.7511" Y="0.9261"/>
+        <Font/>
+      </Melder>
+      <Melder MaxBildNr="1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links+rechts" PhysikGroesse="66" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6944" Y="0.8841"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <FstTextur>
+          <EinzelTextur Uol="0.084" Vol="0.5352" Uur="0.2813" Vur="0.6543">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-4.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6944" Y="0.912"/>
+        <InstrPkt3 X="0.7203" Y="0.912"/>
+        <InstrPkt4 X="0.7203" Y="0.8841"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links Klickflaeche" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6839" Y="0.9247"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6839" Y="0.9567"/>
+        <InstrPkt3 X="0.7108" Y="0.9567"/>
+        <InstrPkt4 X="0.7108" Y="0.9247"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl rechts Klickflaeche" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.7241" Y="0.9261"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.7241" Y="0.9594"/>
+        <InstrPkt3 X="0.7511" Y="0.9594"/>
+        <InstrPkt4 X="0.7511" Y="0.9261"/>
+        <Font/>
+      </Melder>
+      <Melder Vorkomma="2" Farbe="FFFFFFFF" InstrName="LM Tuerseitenvorwahl links+rechts Klickflaeche" Faktor="1" DunkelFarbe="FFC8C8C8">
+        <InstrPkt1 X="0.6944" Y="0.8841"/>
+        <FstTextur>
+          <EinzelTextur Uol="0.0342" Vol="0.0342" Uur="0.0342" Vur="0.0342">
+            <Datei Dateiname="RollingStock\Deutschland\Epoche5\Elektrotriebwagen\450\GT8-100D_2S-M\Fuehrerstand\fst-100d-1.dds"/>
+          </EinzelTextur>
+        </FstTextur>
+        <InstrPkt2 X="0.6944" Y="0.912"/>
+        <InstrPkt3 X="0.7203" Y="0.912"/>
+        <InstrPkt4 X="0.7203" Y="0.8841"/>
+        <Font/>
+      </Melder>
+    </Grafik>
+    <Grafik>
+      <RenderFlags TexVoreinstellung="1"/>
+      <Grunddaten GrafikName="Spiegelblick links" FtdHauptrichtung="2" FtdLfdNr="1">
+        <p X="-1.39" Y="2" Z="2.7"/>
+        <lookat X="-11" Y="2" Z="2"/>
+        <up X="-1.39" Y="2" Z="12"/>
+      </Grunddaten>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+        <InstrPkt1/>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+    </Grafik>
+    <Grafik>
+      <RenderFlags TexVoreinstellung="1"/>
+      <Grunddaten GrafikName="Spiegelblick rechts" FtdHauptrichtung="3" FtdLfdNr="1">
+        <p X="-1.39" Y="-2" Z="2.7"/>
+        <lookat X="-11" Y="-2" Z="2"/>
+        <up X="-1.39" Y="-2" Z="12"/>
+      </Grunddaten>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+        <InstrPkt1/>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+    </Grafik>
+    <Grafik>
+      <RenderFlags TexVoreinstellung="1"/>
+      <Grunddaten GrafikName="Streckenblick" FtdHauptrichtung="1" FtdLfdNr="1">
+        <p X="-1.62" Y="-0.15" Z="2.6"/>
+        <lookat X="10" Y="-0.45" Z="2.5"/>
+        <up X="-1.5339" Y="-0.15" Z="12.5996"/>
+      </Grunddaten>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+        <InstrPkt1/>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+    </Grafik>
+    <Grafik>
+      <RenderFlags TexVoreinstellung="1"/>
+      <Grunddaten GrafikName="Blick zum Hauptsignal" FtdHauptrichtung="1" FtdLfdNr="2">
+        <p X="-0.5" Y="-0.15" Z="2.8"/>
+        <lookat X="9.3036" Y="-0.15" Z="5.7621"/>
+        <up X="-2.4625" Y="-0.15" Z="12.6055"/>
+      </Grunddaten>
+      <Melder MaxBildNr="-1" Vorkomma="2" Farbe="FFFFFFFF" InstrName="Fenster" PhysikGroesse="22" Faktor="1" DunkelFarbe="FFFFFFFF">
+        <InstrPkt1/>
+        <InstrPkt2 Y="1"/>
+        <InstrPkt3 X="1" Y="1"/>
+        <InstrPkt4 X="1"/>
+        <Font/>
+      </Melder>
+    </Grafik>
+  </Fuehrerstand>
+</Zusi>
